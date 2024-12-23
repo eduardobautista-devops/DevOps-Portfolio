@@ -10,6 +10,7 @@ Here are the projects I completed during the TWN DevOps Bootcamp:
 
 1. [Install Jenkins on DigitalOcean](https://github.com/eduardobautista-devops/jenkins-setup-digitalocean)
 2. [Create a CI Pipeline with Jenkinsfile (Freestyle, Pipeline, Multibranch Pipeline)](https://github.com/eduardobautista-devops/ci-pipeline-jenkins)
+3. [Create a Jenkins Shared Library](https://github.com/eduardobautista-devops/jenkins-shared-library)
 
 ---
 
