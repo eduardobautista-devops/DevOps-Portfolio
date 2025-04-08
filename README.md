@@ -1,6 +1,10 @@
 # DevOps Portfolio
 
-Welcome to my DevOps portfolio! This repository highlights the projects I completed as part of the **TWN DevOps Bootcamp**, showcasing my hands-on experience with DevOps tools and practices.
+Welcome to my DevOps portfolio! This repository highlights the projects I completed, showcasing my hands-on experience with DevOps tools and practices.
+
+- [TWN DevOps Projects](#twn-devops-projects)  
+- [The University of Chicago](#the-university-of-chicago)  
+- [Other DevOps Projects](#other-devops-projects)
 
 ---
 
@@ -8,14 +12,17 @@ Welcome to my DevOps portfolio! This repository highlights the projects I comple
 
 Here are the projects I completed during the TWN DevOps Bootcamp:
 
-1. [Install Jenkins on DigitalOcean](https://github.com/eduardobautista-devops/jenkins-setup-digitalocean)
-2. [Create a CI Pipeline with Jenkinsfile (Freestyle, Pipeline, Multibranch Pipeline)](https://github.com/eduardobautista-devops/ci-pipeline-jenkins)
-3. [Create a Jenkins Shared Library](https://github.com/eduardobautista-devops/jenkins-shared-library)
+### Build Automation & CI/CD with Jenkins
+<details>
+  <summary><strong>Demo Project: Install Jenkins on DigitalOcean</strong></summary>
+#### Technologies Used:
+Jenkins, Docker, DigitalOcean, Linux <img src="./assets/project-tools-icons1.png" alt="Project Tools" width="200" align="right" />
 
+#### Project Description:
+- Create an Ubuntu server on DigitalOcean.
+- Set up and run Jenkins as a Docker container.
+- Initialize Jenkins and configure it for CI/CD.
+
+For detailed **steps and processes** followed during the project, please refer to the attached [PDF](./assets/Demo_Project_Install_Jenkins_on_DigitalOcean.pdf) document.
+</details>
 ---
-
-## About This Portfolio
-
-This portfolio is designed to demonstrate my proficiency in DevOps tools, including Jenkins, Docker, Kubernetes, Terraform, and cloud platforms like AWS and DigitalOcean. Each project is hosted in a dedicated GitHub repository with detailed documentation.
-
-Feel free to explore the project, and let me know if you have any questions!
