@@ -118,7 +118,7 @@ If you would like to explore the code for this project, please visit this [GitLa
 </details>
 
 ### AWS Services <img src="./assets/twn-devops-projects/02-aws/aws-icon.png" alt="Project Tools" width="35" align="left" />
-
+---
 
 <details>
   <summary><strong>🟢 Demo Project: Deploy Web Application on EC2 Instance (manually)</strong></summary><br>
@@ -212,7 +212,129 @@ For detailed **steps and processes** followed during the project, please refer t
 ---
 </details>
 
+### Container Orchestration with Kubernetes <img src="./assets/twn-devops-projects/01-jenkins/kubernetes-icon.png" alt="Project Tools" width="35" align="left" />
 
+---
+<details>
+  <summary><strong> 🟢 Demo Project: Deploy MongoDB and Mongo Express into local K8s cluster</strong></summary><br>
+
+  **Technologies Used**:  
+  Kubernetes, Docker, MongoDB, Mongo Express <img src="./assets/twn-devops-projects/03-kubernetes/project-tools-icons1.png" alt="Project Tools" width="200" align="right" />
+
+  **Project Description:**
+  - Setup local K8s cluster with Minikube
+  - Deploy MongoDB and MongoExpress with configuration and credentials extracted into ConfigMap and Secret
+
+  For detailed **steps and processes** followed during the project, please refer to the attached [PDF](./assets/twn-devops-projects/03-kubernetes/Demo_Project_Deploy_MongoDB_and_Mongo_Express_into_local_K8s_cluster.pdf) document.
+
+  If you would like to explore the code for this project, please visit this [GitLab repository](https://gitlab.com/twn-devops-projects/kubernetes/demo-deploying-application).
+
+---
+</details>
+
+<details>
+  <summary><strong> 🟢 Demo Project: Deploy Mosquitto message broker with ConfigMap and Secret Volume Types</strong></summary><br>
+
+  **Technologies Used**:  
+  Kubernetes, Docker, Mosquitto <img src="./assets/twn-devops-projects/03-kubernetes/project-tools-icons2.png" alt="Project Tools" width="200" align="right" />
+
+  **Project Description:**
+  - Define configuration and passwords for Mosquitto message broker with ConfigMap and Secret Volume types
+
+  For detailed **steps and processes** followed during the project, please refer to the attached [PDF](./assets/twn-devops-projects/03-kubernetes/Demo_Project_Deploy_Mosquitto_message_broker_with_ConfigMap_and_Secret_Volume_Types.pdf) document.
+
+  If you would like to explore the code for this project, please visit this [GitLab repository](https://gitlab.com/twn-devops-projects/kubernetes/configmap-and-secret-volume-types).
+
+---
+</details>
+
+<details>
+  <summary><strong> 🟢 Demo Project: Install a stateful service (MongoDB) on Kubernetes using Helm</strong></summary><br>
+
+  **Technologies Used**:  
+  K8s, Helm, MongoDB, Mongo Express, Linode LKE, Linux <img src="./assets/twn-devops-projects/03-kubernetes/project-tools-icons3.png" alt="Project Tools" width="275" align="right" />
+
+  **Project Description:**
+  - Create a managed K8s cluster with Linode Kubernetes Engine
+  - Deploy replicated MongoDB service in LKE cluster using a Helm chart
+  - Configure data persistence for MongoDB with Linode’s cloud storage
+  - Deploy UI client Mongo Express for MongoDB
+  - Deploy and configure nginx ingress to access the UI application from browser
+
+  For detailed **steps and processes** followed during the project, please refer to the attached [PDF](./assets/twn-devops-projects/03-kubernetes/Demo_Project_Install_a_stateful_(MongoDB)_on_Kubernetes_using_Helm.pdf) document.
+
+  If you would like to explore the code for this project, please visit this [GitLab repository](https://gitlab.com/twn-devops-projects/kubernetes/helm-demo).
+
+---
+</details>
+
+<details>
+  <summary><strong> 🟢 Demo Project: Deploy our web application in K8s cluster from private Docker registry</strong></summary><br>
+
+  **Technologies Used**:  
+  Kubernetes, Helm, AWS ECR, Docker <img src="./assets/twn-devops-projects/03-kubernetes/project-tools-icons4.png" alt="Project Tools" width="275" align="right" />
+
+  **Project Description:**
+  - Create Secret for credentials for the private Docker registry
+  - Configure the Docker registry secret in application Deployment component
+  - Deploy web application image from our private Docker registry in K8s cluster
+
+  For detailed **steps and processes** followed during the project, please refer to the attached [PDF](./assets/twn-devops-projects/03-kubernetes/Demo_Project_Deploy_our_web_application_in_K8s_cluster_from_private_Docker_registry.pdf) document.
+
+  If you would like to explore the code for this project, please visit this [GitLab repository](https://gitlab.com/twn-devops-projects/kubernetes/deploying-images-from-private-docker-repo).
+
+---
+</details>
+
+<details>
+  <summary><strong> 🟢 Demo Project: Deploy Microservices application in Kubernetes with Production and Security Best Practices</strong></summary><br>
+
+  **Technologies Used**:  
+  Kubernetes, Redis, Linux, Linode LKE <img src="./assets/twn-devops-projects/03-kubernetes/project-tools-icons5.png" alt="Project Tools" width="250" align="right" />
+
+  **Project Description:**
+  - Create K8s manifests for Deployments and Services for all microservices of an online shop application
+  - Deploy microservices to Linode’s managed Kubernetes cluster
+
+  For detailed **steps and processes** followed during the project, please refer to the attached [PDF](./assets/twn-devops-projects/03-kubernetes/Demo_Project_Deploy_Microservices_application_in_Kubernetes_with_Production_Security_Best_Practices.pdf) document.
+
+  If you would like to explore the code for this project, please visit this [GitLab repository](https://gitlab.com/twn-devops-projects/kubernetes/helm-chart-microservices).
+
+---
+</details>
+
+<details>
+  <summary><strong> 🟢 Demo Project: Create Helm Chart for Microservices</strong></summary><br>
+
+  **Technologies Used**:  
+  Kubernetes, Helm <img src="./assets/twn-devops-projects/03-kubernetes/project-tools-icons6.png" alt="Project Tools" width="150" align="right" />
+
+  **Project Description:**
+  - Create 1 shared Helm Chart for all microservices, to reuse common Deployment and Service configurations for the services
+
+  For detailed **steps and processes** followed during the project, please refer to the attached [PDF](./assets/twn-devops-projects/03-kubernetes/Demo_Project_Create_Helm_Chart_for_Microservices.pdf) document.
+
+  If you would like to explore the code for this project, please visit this [GitLab repository](https://gitlab.com/twn-devops-projects/kubernetes/helm-chart-microservices).
+
+---
+</details>
+
+<details>
+  <summary><strong> 🟢 Demo Project: Deploy Microservices with Helmfile</strong></summary><br>
+
+  **Technologies Used**:  
+  Kubernetes, Helm, Helmfile <img src="./assets/twn-devops-projects/03-kubernetes/project-tools-icons6.png" alt="Project Tools" width="150" align="right" />
+
+  **Project Description:**
+  - Deploy Microservices with Helm
+  - Deploy Microservices with Helmfile
+
+  For detailed **steps and processes** followed during the project, please refer to the attached [PDF](./assets/twn-devops-projects/03-kubernetes/Demo_Project_Deploy_Microservices_with_Helmfile.pdf) document.
+
+  If you would like to explore the code for this project, please visit this [GitLab repository](https://gitlab.com/twn-devops-projects/kubernetes/helm-chart-microservices).
+
+---
+</details>
 
 
 ---
