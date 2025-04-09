@@ -14,23 +14,24 @@ Here are the projects I completed during the TWN DevOps Bootcamp:
 
 ### Build Automation & CI/CD with Jenkins
 <details>
-  <summary><strong>Demo Project: Install Jenkins on DigitalOcean</strong></summary><br>
+  <summary><strong><span style="color: green;">Demo Project: Install Jenkins on DigitalOcean</strong></summary><br>
+
   **Technologies Used**:
   Jenkins, Docker, DigitalOcean, Linux <img src="./assets/twn-devops-projects/01-jenkins/project-tools-icons1.png" alt="Project Tools" width="200" align="right" />
-  **Project Description**:
+  **Project Description:**
   - Create an Ubuntu server on DigitalOcean.
   - Set up and run Jenkins as a Docker container.
   - Initialize Jenkins and configure it for CI/CD.
   For detailed **steps and processes** followed during the project, please refer to the attached [PDF](./assets/twn-devops-projects/01-jenkins/Demo_Project_Install_Jenkins_on_DigitalOcean.pdf) document.
 </details>
 
----
 <details>
   <summary><strong> Demo Project: Create a CI Pipeline with Jenkinsfile (Freestyle, Pipeline, Multibranch Pipeline) </strong></summary><br>
-## Technologies Used:
+
+**Technologies Used:**
 Jenkins, Docker, Linux, Git, Java, Maven <img src="./assets/twn-devops-projects/01-jenkins/project-tools-icons2.png" alt="Project Tools" width="300" align="right" />
 
-## Project Description:
+**Project Description:**
 CI Pipeline for a Java Maven application to build and push to the repository:
 - Install Build Tools (Maven, Node) in Jenkins
 - Make Docker available on Jenkins server
@@ -50,6 +51,8 @@ For setup guidance, please refer to the attached [Setup Guide PDF](./assets/twn-
 For detailed **steps and processes** followed during the project, please refer to the attached [PDF](./assets/twn-devops-projects/01-jenkins/Demo_Project_Create_a_CI_Pipeline_with_Jenkinsfile.pdf) document.
 
 If you would like to explore the code for this project, please visit this [GitLab repository](https://gitlab.com/twn-devops-projects/jenkins/java-maven-app/-/tree/main?ref_type=heads).
+
+---
 </details>
 
 ---
@@ -60,96 +63,106 @@ Here are the projects I completed during when studying at The University of Chic
 
 
 <details>
-  <summary><strong>Setting up a Virtual Machine and Getting Started</strong></summary><br>
-  **Technologies Used**:
+  <summary><strong><span style="color: green;">Setting up a Virtual Machine and Getting Started</strong></summary><br>
 
-  **Project Description**:
+  **Technologies Used:**
+
+  **Project Description:**
 
   For detailed **steps and processes** followed during the project, please refer to the attached [PDF](./assets/the-university-of-chicago/Assignment_1_Setting_up_a_Virtual_Machine_and_Getting_Started.pdf) document.
+
+  ---
 </details>
 
 <details>
-  <summary><strong>Cloud Computing</strong></summary><br>
+  <summary><strong><span style="color: green;">Cloud Computing</strong></summary><br>
 
-**Technologies Used**:
+  **Technologies Used:**
 
-**Project Description**:
+  **Project Description:**
 
 For detailed **steps and processes** followed during the project, please refer to the attached [PDF](./assets/the-university-of-chicago/Assignment_2_Cloud_Computing.pdf) document.
+
+---
 </details>
 
 <details>
-  <summary><strong>Create an Open-Source Software</strong></summary><br>
+  <summary><strong><span style="color: green;">Create an Open-Source Software</strong></summary><br>
 
-**Technologies Used**:
+  **Technologies Used:**
 
-**Project Description**:
+  **Project Description:**
 
 For detailed **steps and processes** followed during the project, please refer to the attached [PDF](./assets/the-university-of-chicago/Assignment_3_Create_an_Open-Source_Software.pdf) document.
+
+---
 </details>
 
 <details>
-  <summary><strong>Git Repository</strong></summary><br>
+  <summary><strong><span style="color: green;">Git Repository</strong></summary><br>
 
-**Technologies Used**:
+  **Technologies Used:**
 
-
-**Project Description**:
+  **Project Description:**
 
 For detailed **steps and processes** followed during the project, please refer to the attached [PDF](./assets/the-university-of-chicago/Assignment_4_Git_Repository.pdf) document.
+
+---
 </details>
 
 <details>
-  <summary><strong>Creating a CI Environment</strong></summary><br>
+  <summary><strong><span style="color: green;">Creating a CI Environment</strong></summary><br>
 
-**Technologies Used**:
+  **Technologies Used:**
 
-
-**Project Description**:
+  **Project Description:**
 
 
 For detailed **steps and processes** followed during the project, please refer to the attached [PDF](./assets/the-university-of-chicago/Assignment_5_Creating_a_CI_Environment.pdf) document.
+
+---
 </details>
 
 
 <details>
-  <summary><strong>Deploying with Docker</strong></summary><br>
+  <summary><strong><span style="color: green;">Deploying with Docker</strong></summary><br>
 
-**Technologies Used**:
+  **Technologies Used:**
 
-
-**Project Description**:
+  **Project Description:**
 
 For detailed **steps and processes** followed during the project, please refer to the attached [PDF](./assets/the-university-of-chicago/Assignment_6_Deploying_with_Docker.pdf) document.
 
-
+---
 </details>
 
 <details>
-  <summary><strong>Creating an Amazon RDS MySQL Database for Software Configuration</strong></summary><br>
+  <summary><strong><span style="color: green;">Creating an Amazon RDS MySQL Database for Software Configuration</strong></summary><br>
 
-**Technologies Used**:
+  **Technologies Used:**
 
-
-**Project Description**:
+  **Project Description:**
 
 For detailed **steps and processes** followed during the project, please refer to the attached [PDF](./assets/the-university-of-chicago/Assignment_7_Creating_an_Amazon_RDS_MySQL_Database_for_Software_Configuration.pdf) document.
 
-
+---
 </details>
 
 <details>
   <summary><strong>Datadog Dashboard</strong></summary><br>
 
-**Technologies Used**:
+  **Technologies Used:**
 
-
-**Project Description**:
-
+  **Project Description:**
 
 For detailed **steps and processes** followed during the project, please refer to the attached [PDF](./assets/the-university-of-chicago/Assignment_8_Datadog_Dashboard.pdf) document.
-</details>
+
 ---
+</details>
+
+---
+---
+
 ## Other DevOps Projects
 
 These are additional projects I worked on to expand my DevOps expertise:
