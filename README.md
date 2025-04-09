@@ -14,7 +14,7 @@ Here are the projects I completed during the TWN DevOps Bootcamp:
 
 ### Build Automation & CI/CD with Jenkins
 <details>
-  <summary><strong><span style="color: green;">Demo Project: Install Jenkins on DigitalOcean</span></strong></summary><br>
+  <summary><strong> 🟢 Demo Project: Install Jenkins on DigitalOcean</strong></summary><br>
 
   **Technologies Used**:
   Jenkins, Docker, DigitalOcean, Linux <img src="./assets/twn-devops-projects/01-jenkins/project-tools-icons1.png" alt="Project Tools" width="200" align="right" />
@@ -28,7 +28,7 @@ Here are the projects I completed during the TWN DevOps Bootcamp:
 </details>
 
 <details>
-  <summary><strong> Demo Project: Create a CI Pipeline with Jenkinsfile (Freestyle, Pipeline, Multibranch Pipeline) </span></strong></summary><br>
+  <summary><strong> 🟢 Demo Project: Create a CI Pipeline with Jenkinsfile (Freestyle, Pipeline, Multibranch Pipeline) </strong></summary><br>
 
 **Technologies Used:**
 Jenkins, Docker, Linux, Git, Java, Maven <img src="./assets/twn-devops-projects/01-jenkins/project-tools-icons2.png" alt="Project Tools" width="300" align="right" />
@@ -65,7 +65,7 @@ Here are the projects I completed during when studying at The University of Chic
 
 
 <details>
-  <summary><strong><span style="color: green;">Setting up a Virtual Machine and Getting Started</span></strong></summary><br>
+  <summary><strong> 🟢 Setting up a Virtual Machine and Getting Started</strong></summary><br>
 
   **Technologies Used:**
 
@@ -77,7 +77,7 @@ Here are the projects I completed during when studying at The University of Chic
 </details>
 
 <details>
-  <summary><strong><span style="color: green;">Cloud Computing</span></strong></summary><br>
+  <summary><strong> 🟢 Cloud Computing</strong></summary><br>
 
   **Technologies Used:**
 
@@ -89,7 +89,7 @@ For detailed **steps and processes** followed during the project, please refer t
 </details>
 
 <details>
-  <summary><strong><span style="color: green;">Create an Open-Source Software</span></strong></summary><br>
+  <summary><strong> 🟢 Create an Open-Source Software</strong></summary><br>
 
   **Technologies Used:**
 
@@ -101,7 +101,7 @@ For detailed **steps and processes** followed during the project, please refer t
 </details>
 
 <details>
-  <summary><strong><span style="color: green;">Git Repository</span></strong></summary><br>
+  <summary><strong> 🟢 Git Repository</strong></summary><br>
 
   **Technologies Used:**
 
@@ -113,7 +113,7 @@ For detailed **steps and processes** followed during the project, please refer t
 </details>
 
 <details>
-  <summary><strong><span style="color: green;">Creating a CI Environment</span></strong></summary><br>
+  <summary><strong> 🟢 Creating a CI Environment</strong></summary><br>
 
   **Technologies Used:**
 
@@ -127,7 +127,7 @@ For detailed **steps and processes** followed during the project, please refer t
 
 
 <details>
-  <summary><strong><span style="color: green;">Deploying with Docker</span></strong></summary><br>
+  <summary><strong> 🟢 Deploying with Docker</strong></summary><br>
 
   **Technologies Used:**
 
@@ -139,7 +139,7 @@ For detailed **steps and processes** followed during the project, please refer t
 </details>
 
 <details>
-  <summary><strong><span style="color: green;">Creating an Amazon RDS MySQL Database for Software Configuration</span></strong></summary><br>
+  <summary><strong> 🟢 Creating an Amazon RDS MySQL Database for Software Configuration</strong></summary><br>
 
   **Technologies Used:**
 
@@ -151,7 +151,7 @@ For detailed **steps and processes** followed during the project, please refer t
 </details>
 
 <details>
-  <summary><strong><span style="color: green;">Datadog Dashboard</span></strong></summary><br>
+  <summary><strong> 🟢 Datadog Dashboard</strong></summary><br>
 
   **Technologies Used:**
 
