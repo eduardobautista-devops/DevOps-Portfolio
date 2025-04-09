@@ -12,12 +12,14 @@ Welcome to my DevOps portfolio! This repository highlights the projects I comple
 
 Here are the projects I completed during the TWN DevOps Bootcamp:
 
-### Build Automation & CI/CD with Jenkins
+### Build Automation & CI/CD with Jenkins <img src="./assets/twn-devops-projects/01-jenkins/jenkins-icon.png" alt="Project Tools" width="200" align="left" />
+
 <details>
   <summary><strong> 🟢 Demo Project: Install Jenkins on DigitalOcean</strong></summary><br>
 
   **Technologies Used**:
   Jenkins, Docker, DigitalOcean, Linux <img src="./assets/twn-devops-projects/01-jenkins/project-tools-icons1.png" alt="Project Tools" width="200" align="right" />
+
   **Project Description:**
   - Create an Ubuntu server on DigitalOcean.
   - Set up and run Jenkins as a Docker container.
