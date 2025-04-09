@@ -59,6 +59,64 @@ If you would like to explore the code for this project, please visit this [GitLa
 ---
 </details>
 
+<details>
+  <summary><strong>🟢 Demo Project: Create a Jenkins Shared Library</strong></summary><br>
+
+**Technologies Used**:  
+Jenkins, Groovy, Docker, Git, Java, Maven <img src="./assets/twn-devops-projects/01-jenkins/project-tools-icons3.png" alt="Project Tools" width="300" align="right" />
+
+**Project Description:**
+- Create a separate Git repository for the Jenkins Shared Library project
+- Create functions in the JSL to use in the Jenkins pipeline
+- Integrate and use the JSL in Jenkins Pipeline (globally and for a specific project in Jenkinsfile)
+
+For detailed **steps and processes** followed during the project, please refer to the attached [PDF](./assets/twn-devops-projects/01-jenkins/Demo_Project_Create_a_Jenkins_Shared_Library.pdf) document.
+
+If you would like to explore the code for this project, please visit this [GitLab repository](https://gitlab.com/twn-devops-projects/jenkins/jenkins-shared-library).
+
+---
+</details>
+
+<details>
+  <summary><strong>🟢 Demo Project: Configure Webhook to trigger CI Pipeline automatically on every change</strong></summary><br>
+
+**Technologies Used**:  
+Jenkins, Docker, GitLab, Git, Java, Maven <img src="./assets/twn-devops-projects/01-jenkins/project-tools-icons4.png" alt="Project Tools" width="300" align="right" />
+
+**Project Description:**
+- Install GitLab Plugin in Jenkins
+- Configure GitLab access token and connection to Jenkins in GitLab project settings
+- Configure Jenkins to trigger the CI pipeline whenever a change is pushed to GitLab
+
+For detailed **steps and processes** followed during the project, please refer to the attached [PDF](./assets/twn-devops-projects/01-jenkins/Demo_Project_Configure_Webhook_to_trigger_CI_Pipeline_automatically_on_every_change.pdf) document.
+
+Note: There is no **GitLab repository** for this project since it focuses on setting up the Webhook.
+
+---
+</details>
+
+<details>
+  <summary><strong>🟢 Demo Project: Dynamically Increment Application version in Jenkins Pipeline</strong></summary><br>
+
+**Technologies Used**:  
+Jenkins, Docker, GitLab, Git, Java, Maven <img src="./assets/twn-devops-projects/01-jenkins/project-tools-icons4.png" alt="Project Tools" width="300" align="right" />
+
+**Project Description:**
+- Configure CI step: Increment patch version
+- Configure CI step: Build Java application and clean old artifacts
+- Configure CI step: Build image with dynamic Docker Image Tag
+- Configure CI step: Push image to private DockerHub repository
+- Configure CI step: Commit version update of Jenkins back to Git repository
+- Configure Jenkins pipeline to avoid commit loop by not triggering on version bump commits
+
+For detailed **steps and processes** followed during the project, please refer to the attached [PDF](./assets/twn-devops-projects/01-jenkins/Demo_Project_Dynamically_Increment_Application_version_in_Jenkins_Pipeline.pdf) document.
+
+If you would like to explore the code for this project, please visit this [GitLab repository](https://gitlab.com/twn-devops-projects/jenkins/java-maven-app/-/tree/jenkins-jobs?ref_type=heads).
+
+---
+</details>
+
+
 ---
 ---
 ## The University of Chicago
