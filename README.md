@@ -212,7 +212,7 @@ For detailed **steps and processes** followed during the project, please refer t
 ---
 </details>
 
-### Container Orchestration with Kubernetes <img src="./assets/twn-devops-projects/01-jenkins/kubernetes-icon.png" alt="Project Tools" width="35" align="left" />
+### Container Orchestration with Kubernetes <img src="./assets/twn-devops-projects/03-kubernetes/kubernetes-icon.png" alt="Project Tools" width="35" align="left" />
 
 ---
 <details>
