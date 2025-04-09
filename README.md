@@ -14,6 +14,7 @@ Here are the projects I completed during the TWN DevOps Bootcamp:
 
 ### Build Automation & CI/CD with Jenkins <img src="./assets/twn-devops-projects/01-jenkins/jenkins-icon.png" alt="Project Tools" width="35" align="left" />
 
+
 <details>
   <summary><strong> 🟢 Demo Project: Install Jenkins on DigitalOcean</strong></summary><br>
 
@@ -116,7 +117,7 @@ If you would like to explore the code for this project, please visit this [GitLa
 ---
 </details>
 
-## AWS Services <img src="./assets/twn-devops-projects/02-aws/aws-icon.png" alt="Project Tools" width="35" align="left" />
+### AWS Services <img src="./assets/twn-devops-projects/02-aws/aws-icon.png" alt="Project Tools" width="35" align="left" />
 
 
 <details>
