@@ -345,33 +345,577 @@ For detailed **steps and processes** followed during the project, please refer t
 ---
 ### Kubernetes on AWS - EKS <img src="./assets/twn-devops-projects/04-eks/eks-icon.png" alt="Project Tools" width="35" align="left" />
 
+<details>
+  <summary><strong> 🟢 Demo Project: Create AWS EKS cluster with a Node Group</strong></summary><br>
+
+  **Technologies Used**:
+  Kubernetes, AWS EKS <img src="./assets/twn-devops-projects/04-eks/project-tools-icons1.png" alt="Project Tools" width="125" align="right" />
+
+  **Project Description:**
+  - Configure necessary IAM Roles
+  - Create VPC with Cloudformation Template for Worker Nodes
+  - Create EKS cluster (Control Plane Nodes)
+  - Create Node Group for Worker Nodes and attach to EKS cluster
+  - Configure Auto-Scaling of worker nodes
+  - Deploy a sample application to EKS cluster
+
+  For detailed **steps and processes** followed during the project, please refer to the attached [PDF](./assets/twn-devops-projects/04-eks/Demo_Project_Create_AWS_EKS_cluster_with_a_Node_Group.pdf) document.
+
+---
+</details>
+
+<details>
+  <summary><strong> 🟢 Demo Project: Create EKS cluster with Fargate profile</strong></summary><br>
+
+  **Technologies Used**:
+  Kubernetes, AWS EKS, AWS Fargate <img src="./assets/twn-devops-projects/04-eks/project-tools-icons2.png" alt="Project Tools" width="175" align="right" />
+
+  **Project Description:**
+  - Create Fargate IAM Role
+  - Create Fargate Profile
+  - Deploy an example application to EKS cluster using Fargate profile
+
+  For detailed **steps and processes** followed during the project, please refer to the attached [PDF](./assets/twn-devops-projects/04-eks/Demo_Project_Create_EKS_cluster_with_Fargate_profile.pdf) document.
+
+---
+</details>
+
+<details>
+  <summary><strong> 🟢 Demo Project: Create EKS cluster with eksctl</strong></summary><br>
+
+  **Technologies Used**:
+  Kubernetes, AWS EKS, Eksctl, Linux <img src="./assets/twn-devops-projects/04-eks/project-tools-icons3.png" alt="Project Tools" width="225" align="right" />
+
+  **Project Description:**
+  - Create EKS cluster using eksctl tool that reduces the manual effort of creating an EKS cluster
+
+  For detailed **steps and processes** followed during the project, please refer to the attached [PDF](./assets/twn-devops-projects/04-eks/Demo_Project_Create_EKS_cluster_with_eksctl.pdf) document.
+
+---
+</details>
+
+<details>
+  <summary><strong> 🟢 Demo Project: CD - Deploy to EKS cluster from Jenkins Pipeline</strong></summary><br>
+
+  **Technologies Used**:
+  Kubernetes, Jenkins, AWS EKS, Docker, Linux <img src="./assets/twn-devops-projects/04-eks/project-tools-icons4.png" alt="Project Tools" width="250" align="right" />
+
+  **Project Description:**
+  - Install kubectl and aws-iam-authenticator on a Jenkins server
+  - Create kubeconfig file to connect to EKS cluster and add it on Jenkins server
+  - Add AWS credentials on Jenkins for AWS account authentication
+  - Extend and adjust Jenkinsfile of the previous CI/CD pipeline to configure connection to EKS cluster
+
+  For detailed **steps and processes** followed during the project, please refer to the attached [PDF](./assets/twn-devops-projects/04-eks/Demo_Project_CD_-_Deploy_to_EKS_cluster_from_Jenkins_Pipeline.pdf) document.
+
+  If you would like to explore the code for this project, please visit this [GitLab repository](https://gitlab.com/twn-devops-projects/eks/java-maven-app/-/tree/deploy-on-k8s?ref_type=heads).
+
+---
+</details>
+
+<details>
+  <summary><strong> 🟢 Demo Project: CD - Deploy to LKE cluster from Jenkins Pipeline</strong></summary><br>
+
+  **Technologies Used**:
+  Kubernetes, Jenkins, Linode LKE, Docker, Linux <img src="./assets/twn-devops-projects/04-eks/project-tools-icons5.png" alt="Project Tools" width="225" align="right" />
+
+  **Project Description:**
+  - Create K8s cluster on LKE
+  - Install kubectl as Jenkins Plugin
+  - Adjust Jenkinsfile to use Plugin and deploy to LKE cluster
+
+  For detailed **steps and processes** followed during the project, please refer to the attached [PDF](./assets/twn-devops-projects/04-eks/Demo_Project_CD_-_Deploy_to_LKE_cluster_from_Jenkins_Pipeline.pdf) document.
+
+  If you would like to explore the code for this project, please visit this [GitLab repository](https://gitlab.com/twn-devops-projects/eks/java-maven-app/-/tree/deploy-to-lke?ref_type=heads).
+
+---
+</details>
+
+<details>
+  <summary><strong> 🟢 Demo Project: Complete CI/CD Pipeline with EKS and private DockerHub registry</strong></summary><br>
+
+  **Technologies Used**:
+  Kubernetes, Jenkins, AWS EKS, Docker Hub, Java, Maven, Linux, Docker, Git <img src="./assets/twn-devops-projects/04-eks/project-tools-icons6.png" alt="Project Tools" width="450" align="right" />
+
+  **Project Description:**
+  - Write K8s manifest files for Deployment and Service configuration
+  - Integrate deploy step in the CI/CD pipeline to deploy newly built application image from DockerHub private registry to the EKS cluster
+  - So the complete CI/CD project we build has the following configuration:
+    - CI step: Increment version
+    - CI step: Build artifact for Java Maven application
+    - CI step: Build and push Docker image to DockerHub
+    - CD step: Deploy new application version to EKS cluster
+    - CD step: Commit the version update
+
+  For detailed **steps and processes** followed during the project, please refer to the attached [PDF](./assets/twn-devops-projects/04-eks/Demo_Project_Complete_CICD_Pipeline_with_EKS_and_private_DockerHub_registry.pdf) document.
+
+  If you would like to explore the code for this project, please visit this [GitLab repository](https://gitlab.com/twn-devops-projects/eks/java-maven-app/-/tree/jenkins-jobs?ref_type=heads).
+
+---
+</details>
+
+<details>
+  <summary><strong> 🟢 Demo Project: Complete CI/CD Pipeline with EKS and AWS ECR</strong></summary><br>
+
+  **Technologies Used**:
+  Kubernetes, Jenkins, AWS EKS, AWS ECR, Java, Maven, Linux, Docker, Git <img src="./assets/twn-devops-projects/04-eks/project-tools-icons7.png" alt="Project Tools" width="450" align="right" />
+
+  **Project Description:**
+  - Create private AWS ECR Docker repository
+  - Adjust Jenkinsfile to build and push Docker Image to AWS ECR
+  - Integrate deploying to K8s cluster in the CI/CD pipeline from AWS ECR private registry
+  - So the complete CI/CD project we build has the following configuration:
+    - CI step: Increment version
+    - CI step: Build artifact for Java Maven application
+    - CI step: Build and push Docker image to AWS ECR
+    - CD step: Deploy new application version to EKS cluster
+    - CD step: Commit the version update
+
+  For detailed **steps and processes** followed during the project, please refer to the attached [PDF](./assets/twn-devops-projects/04-eks/Demo_Project_Complete_CICD_Pipeline_with_EKS_and_AWS_ECR.pdf) document.
+
+  If you would like to explore the code for this project, please visit this [GitLab repository](https://gitlab.com/twn-devops-projects/eks/java-maven-app/-/tree/jenkins-jobs-AWS?ref_type=heads).
+
+---
+</details>
+
 <!----------------------------------------------------------------------------------------------------------------------------->
 
 ---
 ### Infrastructure as Code with Terraform <img src="./assets/twn-devops-projects/05-terraform/terraform-icon.png" alt="Project Tools" width="35" align="left" />
+
+<details>
+  <summary><strong> 🟢 Demo Project: Create AWS EKS cluster with a Node Group</strong></summary><br>
+
+  **Technologies Used**:  
+  Kubernetes, AWS EKS <img src="twn-devops-projects/05-terraform/assets/twn-devops-projects/04-eks/project-tools-icons1.png" alt="Project Tools" width="125" align="right" />
+
+  **Project Description:**
+  - Configure necessary IAM Roles
+  - Create VPC with Cloudformation Template for Worker Nodes
+  - Create EKS cluster (Control Plane Nodes)
+  - Create Node Group for Worker Nodes and attach to EKS cluster
+  - Configure Auto-Scaling of worker nodes
+  - Deploy a sample application to EKS cluster
+
+  For detailed **steps and processes** followed during the project, please refer to the attached [PDF](twn-devops-projects/05-terraform/assets/twn-devops-projects/04-eks/Demo_Project_Create_AWS_EKS_cluster_with_a_Node_Group.pdf) document.
+
+---
+</details>
+
+<details>
+  <summary><strong> 🟢 Demo Project: Create EKS cluster with Fargate profile</strong></summary><br>
+
+  **Technologies Used**:  
+  Kubernetes, AWS EKS, AWS Fargate <img src="twn-devops-projects/05-terraform/assets/twn-devops-projects/04-eks/project-tools-icons2.png" alt="Project Tools" width="175" align="right" />
+
+  **Project Description:**
+  - Create Fargate IAM Role
+  - Create Fargate Profile
+  - Deploy an example application to EKS cluster using Fargate profile
+
+  For detailed **steps and processes** followed during the project, please refer to the attached [PDF](twn-devops-projects/05-terraform/assets/twn-devops-projects/04-eks/Demo_Project_Create_EKS_cluster_with_Fargate_profile.pdf) document.
+
+---
+</details>
+
+<details>
+  <summary><strong> 🟢 Demo Project: Create EKS cluster with eksctl</strong></summary><br>
+
+  **Technologies Used**:  
+  Kubernetes, AWS EKS, Eksctl, Linux <img src="twn-devops-projects/05-terraform/assets/twn-devops-projects/04-eks/project-tools-icons3.png" alt="Project Tools" width="225" align="right" />
+
+  **Project Description:**
+  - Create EKS cluster using eksctl tool that reduces the manual effort of creating an EKS cluster
+
+  For detailed **steps and processes** followed during the project, please refer to the attached [PDF](twn-devops-projects/05-terraform/assets/twn-devops-projects/04-eks/Demo_Project_Create_EKS_cluster_with_eksctl.pdf) document.
+
+---
+</details>
+
+<details>
+  <summary><strong> 🟢 Demo Project: CD - Deploy to EKS cluster from Jenkins Pipeline</strong></summary><br>
+
+  **Technologies Used**:  
+  Kubernetes, Jenkins, AWS EKS, Docker, Linux <img src="twn-devops-projects/05-terraform/assets/twn-devops-projects/04-eks/project-tools-icons4.png" alt="Project Tools" width="250" align="right" />
+
+  **Project Description:**
+  - Install kubectl and aws-iam-authenticator on a Jenkins server
+  - Create kubeconfig file to connect to EKS cluster and add it on Jenkins server
+  - Add AWS credentials on Jenkins for AWS account authentication
+  - Extend and adjust Jenkinsfile of the previous CI/CD pipeline to configure connection to EKS cluster
+
+  For detailed **steps and processes** followed during the project, please refer to the attached [PDF](twn-devops-projects/05-terraform/assets/twn-devops-projects/04-eks/Demo_Project_CD_-_Deploy_to_EKS_cluster_from_Jenkins_Pipeline.pdf) document.
+
+  If you would like to explore the code for this project, please visit this [GitLab repository](https://gitlab.com/twn-devops-projects/eks/java-maven-app/-/tree/deploy-on-k8s?ref_type=heads).
+
+---
+</details>
+
+<details>
+  <summary><strong> 🟢 Demo Project: CD - Deploy to LKE cluster from Jenkins Pipeline</strong></summary><br>
+
+  **Technologies Used**:  
+  Kubernetes, Jenkins, Linode LKE, Docker, Linux <img src="twn-devops-projects/05-terraform/assets/twn-devops-projects/04-eks/project-tools-icons5.png" alt="Project Tools" width="225" align="right" />
+
+  **Project Description:**
+  - Create K8s cluster on LKE
+  - Install kubectl as Jenkins Plugin
+  - Adjust Jenkinsfile to use Plugin and deploy to LKE cluster
+
+  For detailed **steps and processes** followed during the project, please refer to the attached [PDF](twn-devops-projects/05-terraform/assets/twn-devops-projects/04-eks/Demo_Project_CD_-_Deploy_to_LKE_cluster_from_Jenkins_Pipeline.pdf) document.
+
+  If you would like to explore the code for this project, please visit this [GitLab repository](https://gitlab.com/twn-devops-projects/eks/java-maven-app/-/tree/deploy-to-lke?ref_type=heads).
+
+---
+</details>
+
+<details>
+  <summary><strong> 🟢 Demo Project: Complete CI/CD Pipeline with EKS and private DockerHub registry</strong></summary><br>
+
+  **Technologies Used**:  
+  Kubernetes, Jenkins, AWS EKS, Docker Hub, Java, Maven, Linux, Docker, Git <img src="twn-devops-projects/05-terraform/assets/twn-devops-projects/04-eks/project-tools-icons6.png" alt="Project Tools" width="450" align="right" />
+
+  **Project Description:**
+  - Write K8s manifest files for Deployment and Service configuration
+  - Integrate deploy step in the CI/CD pipeline to deploy newly built application image from DockerHub private registry to the EKS cluster
+  - So the complete CI/CD project we build has the following configuration:
+    - CI step: Increment version
+    - CI step: Build artifact for Java Maven application
+    - CI step: Build and push Docker image to DockerHub
+    - CD step: Deploy new application version to EKS cluster
+    - CD step: Commit the version update
+
+  For detailed **steps and processes** followed during the project, please refer to the attached [PDF](twn-devops-projects/05-terraform/assets/twn-devops-projects/04-eks/Demo_Project_Complete_CICD_Pipeline_with_EKS_and_private_DockerHub_registry.pdf) document.
+
+  If you would like to explore the code for this project, please visit this [GitLab repository](https://gitlab.com/twn-devops-projects/eks/java-maven-app/-/tree/jenkins-jobs?ref_type=heads).
+
+---
+</details>
+
+<details>
+  <summary><strong> 🟢 Demo Project: Complete CI/CD Pipeline with EKS and AWS ECR</strong></summary><br>
+
+  **Technologies Used**:  
+  Kubernetes, Jenkins, AWS EKS, AWS ECR, Java, Maven, Linux, Docker, Git <img src="twn-devops-projects/05-terraform/assets/twn-devops-projects/04-eks/project-tools-icons7.png" alt="Project Tools" width="450" align="right" />
+
+  **Project Description:**
+  - Create private AWS ECR Docker repository
+  - Adjust Jenkinsfile to build and push Docker Image to AWS ECR
+  - Integrate deploying to K8s cluster in the CI/CD pipeline from AWS ECR private registry
+  - So the complete CI/CD project we build has the following configuration:
+    - CI step: Increment version
+    - CI step: Build artifact for Java Maven application
+    - CI step: Build and push Docker image to AWS ECR
+    - CD step: Deploy new application version to EKS cluster
+    - CD step: Commit the version update
+
+  For detailed **steps and processes** followed during the project, please refer to the attached [PDF](twn-devops-projects/05-terraform/assets/twn-devops-projects/04-eks/Demo_Project_Complete_CICD_Pipeline_with_EKS_and_AWS_ECR.pdf) document.
+
+  If you would like to explore the code for this project, please visit this [GitLab repository](https://gitlab.com/twn-devops-projects/eks/java-maven-app/-/tree/jenkins-jobs-AWS?ref_type=heads).
+
+---
+</details>
 
 <!----------------------------------------------------------------------------------------------------------------------------->
 
 ---
 ### Programming with Python <img src="./assets/twn-devops-projects/06-programming-with-python/python-icon.png" alt="Project Tools" width="35" align="left" />
 
+<details>
+  <summary><strong> 🟢 Demo Project: Write Countdown Application</strong></summary><br>
+
+  **Technologies Used**:  
+  Python, IntelliJ, Git  
+  <img src="./assets/twn-devops-projects/06-programming-with-python/project-tools-icons1.png" alt="Project Tools" width="175" align="right" />
+
+  **Project Description:**
+  - Write an application that accepts a user input of a goal and a deadline (date). Print the remaining time until that deadline.
+
+  For detailed **steps and processes** followed during the project, please refer to the attached [PDF](./assets/twn-devops-projects/06-programming-with-python/Demo_Project_Write_Countdown_Application.pdf) document.
+
+  If you would like to explore the code for this project, please visit this [GitLab repository](https://gitlab.com/twn-devops-projects/programming-with-python/countdown-project).
+
+---
+</details>
+
+<details>
+  <summary><strong> 🟢 Demo Project: Automation with Python</strong></summary><br>
+
+  **Technologies Used**:  
+  Python, IntelliJ, Git  
+  <img src="./assets/twn-devops-projects/06-programming-with-python/project-tools-icons1.png" alt="Project Tools" width="175" align="right" />
+
+  **Project Description:**
+  - Write an application that reads a spreadsheet file and processes and manipulates the spreadsheet.
+
+  For detailed **steps and processes** followed during the project, please refer to the attached [PDF](./assets/twn-devops-projects/06-programming-with-python/Demo_Project_Automation_with_Python_(Spreadsheet).pdf) document.
+
+  If you would like to explore the code for this project, please visit this [GitLab repository](https://gitlab.com/twn-devops-projects/programming-with-python/automation-inventory-project).
+
+---
+</details>
+
+<details>
+  <summary><strong> 🟢 Demo Project: API Request to GitLab</strong></summary><br>
+
+  **Technologies Used**:  
+  Python, GitLab, IntelliJ, Git  
+  <img src="./assets/twn-devops-projects/06-programming-with-python/project-tools-icons2.png" alt="Project Tools" width="225" align="right" />
+
+  **Project Description:**
+  - Write an application that talks to an API of an external application (GitLab) and lists all the public GitLab repositories for a specified user.
+
+  For detailed **steps and processes** followed during the project, please refer to the attached [PDF](./assets/twn-devops-projects/06-programming-with-python/Demo_Project_API_Request_to_GitLab.pdf) document.
+
+  If you would like to explore the code for this project, please visit this [GitLab repository](https://gitlab.com/twn-devops-projects/programming-with-python/gitlab-api-request).
+
+---
+</details>
+
+
 <!----------------------------------------------------------------------------------------------------------------------------->
 
 ---
 ### Automation with Python <img src="./assets/twn-devops-projects/07-automation-with-python/automation-icon.png" alt="Project Tools" width="35" align="left" />
+
+<details>
+  <summary><strong> 🟢 Demo Project: Health Check: EC2 Status Checks</strong></summary><br>
+
+  **Technologies Used**:  
+  Python, Boto3, AWS, Terraform  
+  <img src="./assets/twn-devops-projects/07-automation-with-python/project-tools-icons1.png" alt="Project Tools" width="225" align="right" />
+
+  **Project Description:**
+  - Create EC2 Instances with Terraform.
+  - Write a Python script that fetches statuses of EC2 Instances and prints to the console.
+  - Extend the Python script to continuously check the status of EC2 Instances in a specific interval.
+
+  For detailed **steps and processes** followed during the project, please refer to the attached [PDF](./assets/twn-devops-projects/07-automation-with-python/Demo_Project_Health_Check_EC2_Status_Checks.pdf) document.
+
+  If you would like to explore the code for this project, please visit these...
+  - [GitLab repository for terraform](https://gitlab.com/twn-devops-projects/automation-with-python/terraform)
+  - [GitLab repository for ec2-status-checks](https://gitlab.com/twn-devops-projects/automation-with-python/automation-projects/-/blob/main/ec2-status-checks.py?ref_type=heads)
+
+---
+</details>
+
+<details>
+  <summary><strong> 🟢 Demo Project: Automate configuring EC2 Server Instances</strong></summary><br>
+
+  **Technologies Used**:  
+  Python, Boto3, AWS  
+  <img src="./assets/twn-devops-projects/07-automation-with-python/project-tools-icons1.png" alt="Project Tools" width="225" align="right" />
+
+  **Project Description:**
+  - Write a Python script that automates adding environment tags to all EC2 Server instances.
+
+  For detailed **steps and processes** followed during the project, please refer to the attached [PDF](./assets/twn-devops-projects/07-automation-with-python/Demo_Project_Automate_configuring_EC2_Server_Instances.pdf) document.
+
+  If you would like to explore the code for this project, please visit this [GitLab repository](https://gitlab.com/twn-devops-projects/automation-with-python/automation-projects/-/blob/main/add-env-tags.py?ref_type=heads).
+
+---
+</details>
+
+<details>
+  <summary><strong> 🟢 Demo Project: Automate displaying EKS cluster information</strong></summary><br>
+
+  **Technologies Used**:  
+  Python, Boto3, AWS EKS  
+  <img src="./assets/twn-devops-projects/07-automation-with-python/project-tools-icons2.png" alt="Project Tools" width="225" align="right" />
+
+  **Project Description:**
+  - Write a Python script that fetches and displays EKS cluster status and information.
+
+  For detailed **steps and processes** followed during the project, please refer to the attached [PDF](./assets/twn-devops-projects/07-automation-with-python/Demo_Project_Automate_displaying_EKS_cluster_information.pdf) document.
+
+  If you would like to explore the code for this project, please visit this [GitLab repository](https://gitlab.com/twn-devops-projects/automation-with-python/automation-projects/-/blob/main/eks-status-checks.py?ref_type=heads).
+
+---
+</details>
+
+<details>
+  <summary><strong> 🟢 Demo Project: Data Backup and Restore</strong></summary><br>
+
+  **Technologies Used**:  
+  Python, Boto3, AWS  
+  <img src="./assets/twn-devops-projects/07-automation-with-python/project-tools-icons3.png" alt="Project Tools" width="200" align="right" />
+
+  **Project Description:**
+  - Write a Python script that automates creating backups for EC2 Volumes.
+  - Write a Python script that cleans up old EC2 Volume snapshots.
+  - Write a Python script that restores EC2 Volumes.
+
+  For detailed **steps and processes** followed during the project, please refer to the attached [PDF](./assets/twn-devops-projects/07-automation-with-python/Demo_Project_Data_Backup_and_Restore.pdf) document.
+
+  If you would like to explore the code for this project, please visit these...
+  - [GitLab repository for volume-backups](https://gitlab.com/twn-devops-projects/automation-with-python/automation-projects/-/blob/main/volume-backups.py?ref_type=heads)
+  - [GitLab repository for cleanup-snapshots](https://gitlab.com/twn-devops-projects/automation-with-python/automation-projects/-/blob/main/cleanup-snapshots.py?ref_type=heads)
+  - [GitLab repository for restore-volume](https://gitlab.com/twn-devops-projects/automation-with-python/automation-projects/-/blob/main/restore-volume.py?ref_type=heads)
+
+---
+</details>
+
+<details>
+  <summary><strong> 🟢 Demo Project: Website Monitoring and Recovery</strong></summary><br>
+
+  **Technologies Used**:  
+  Python, Linode, Docker, Linux  
+  <img src="./assets/twn-devops-projects/07-automation-with-python/project-tools-icons4.png" alt="Project Tools" width="225" align="right" />
+
+  **Project Description:**
+  - Create a server on a cloud platform.
+  - Install Docker and run a Docker container on the remote server.
+  - Write a Python script that monitors the website by accessing it and validating the HTTP response.
+  - Write a Python script that sends an email notification when website is down.
+  - Write a Python script that automatically restarts the application & server when the application is down.
+
+  For detailed **steps and processes** followed during the project, please refer to the attached [PDF](./assets/twn-devops-projects/07-automation-with-python/Demo_Project_Website_Monitoring_and_Recovery.pdf) document.
+
+  If you would like to explore the code for this project, please visit this [GitLab repository](https://gitlab.com/twn-devops-projects/automation-with-python/automation-projects/-/blob/main/monitor-website.py?ref_type=heads).
+
+---
+</details>
 
 <!----------------------------------------------------------------------------------------------------------------------------->
 
 ---
 ### Configuration Management with Ansible <img src="./assets/twn-devops-projects/08-ansible/ansible-icon.png" alt="Project Tools" width="35" align="left" />
 
+<details>
+  <summary><strong>🟢 Demo Project: Automate Node.js application Deployment</strong></summary><br>
+
+  **Technologies Used**:
+  Ansible, Node.js, DigitalOcean, Linux <img src="./twn-devops-projects/08-ansible/assets/project-tools-icons1.png" alt="Project Tools" width="200" align="right" />
+
+  **Project Description:**
+  - Create Server on DigitalOcean
+- Write Ansible Playbook that installs necessary technologies, creates Linux user for an application and deploys a NodeJS application with that user
+  For detailed **steps and processes** followed during the project, please refer to the attached [PDF](./twn-devops-projects/08-ansible/assets/Demo_Project_Automate_Node.js_application_deployment.pdf) document.
+
+  If you would like to explore the code for this project, please visit these...
+  - [GitLab repository for terraform](https://gitlab.com/twn-devops-projects/ansible/terraform-learn/-/tree/feature/deploy-to-ec2-default-components?ref_type=heads)
+  - [GitLab repository for deploying Node JS application](https://gitlab.com/twn-devops-projects/ansible/ansible-projects/-/blob/main/deploy-node.yaml?ref_type=heads)
+  - [GitLab repository for Ansible Variables](https://gitlab.com/twn-devops-projects/ansible/ansible-projects/-/tree/feature/variables?ref_type=heads)
+---
+</details>
+
+<details>
+  <summary><strong>🟢 Demo Project: Automate Nexus Deployment</strong></summary><br>
+
+  **Technologies Used**:
+  Ansible, Nexus, DigitalOcean, Java, Linux <img src="./twn-devops-projects/08-ansible/assets/project-tools-icons2.png" alt="Project Tools" width="200" align="right" />
+
+  **Project Description:**
+  - Create Server on DigitalOcean
+- Write Ansible Playbook that creates Linux user for Nexus, configure server, installs and deploys Nexus and verifies that it is running successfully
+  For detailed **steps and processes** followed during the project, please refer to the attached [PDF](./twn-devops-projects/08-ansible/assets/Demo_Project_Automate_Nexus_Deployment.pdf) document.
+
+  If you would like to explore the code for this project, please visit these...
+  - [GitLab repository](https://gitlab.com/twn-devops-projects/ansible/ansible-projects/-/blob/main/deploy-nexus.yaml?ref_type=heads)
+---
+</details>
+
+<details>
+  <summary><strong>🟢 Demo Project: Ansible and Docker</strong></summary><br>
+
+  **Technologies Used**:
+  Ansible, AWS, Docker, Terraform, Linux <img src="./twn-devops-projects/08-ansible/assets/project-tools-icons3.png" alt="Project Tools" width="200" align="right" />
+
+  **Project Description:**
+  - Create AWS EC2 Instance with Terraform
+- Write Ansible Playbook that installs necessary technologies like Docker and Docker Compose, copies docker-compose file to the server and starts the Docker containers configured inside the dockercompose file
+  For detailed **steps and processes** followed during the project, please refer to the attached [PDF](./twn-devops-projects/08-ansible/assets/Demo_Project_Ansible_and_Docker.pdf) document.
+
+  If you would like to explore the code for this project, please visit these...
+  - [GitLab repository for terraform](https://gitlab.com/twn-devops-projects/ansible/terraform-learn/-/tree/feature/deploy-to-ec2-default-components?ref_type=heads)
+  - [GitLab repository for the project](https://gitlab.com/twn-devops-projects/ansible/ansible-projects/-/blob/main/deploy-docker-ec2-user.yaml?ref_type=heads)
+  - [GitLab repository for MySQL](https://gitlab.com/twn-devops-projects/ansible/bootcamp-java-mysql-project)
+---
+</details>
+
 <!----------------------------------------------------------------------------------------------------------------------------->
 
 ---
 ### Monitoring with Prometheus <img src="./assets/twn-devops-projects/09-prometheus/prometheus-icon.png" alt="Project Tools" width="35" align="left" />
 
-<!----------------------------------------------------------------------------------------------------------------------------->
+<details>
+  <summary><strong> 🟢 Demo Project: Install Prometheus Stack in Kubernetes</strong></summary><br>
 
+  **Technologies Used**:  
+  Prometheus, Kubernetes, Helm, AWS EKS, eksctl, Grafana, Linux  
+  <img src="./assets/twn-devops-projects/09-prometheus/project-tools-icons1.png" alt="Project Tools" width="325" align="right" />
+
+  **Project Description:**  
+  - Setup EKS cluster using eksctl  
+  - Deploy Prometheus, Alert Manager and Grafana in cluster as part of the Prometheus Operator using Helm chart  
+
+  For detailed **steps and processes** followed during the project, please refer to the attached [PDF](./assets/twn-devops-projects/09-prometheus/Demo_Project_Install_Prometheus_Stack_in_Kubernetes.pdf) document.
+
+  If you would like to explore the code for this project, please visit this [GitLab repository](https://gitlab.com/twn-devops-projects/prometheus/monitoring).
+
+---
+</details>
+
+<details>
+  <summary><strong> 🟢 Demo Project: Configure Alerting for our Application</strong></summary><br>
+
+  **Technologies Used**:  
+  Prometheus, Kubernetes, Linux  
+  <img src="./assets/twn-devops-projects/09-prometheus/project-tools-icons2.png" alt="Project Tools" width="150" align="right" />
+
+  **Project Description:**  
+  Configure our Monitoring Stack to notify us whenever CPU usage > 50% or Pod cannot start  
+  - Configure Alert Rules in Prometheus Server  
+  - Configure Alertmanager with Email Receiver  
+
+  For detailed **steps and processes** followed during the project, please refer to the attached [PDF](./assets/twn-devops-projects/09-prometheus/Demo_Project_Configure_Alerting_for_our_Application.pdf) document.
+
+  If you would like to explore the code for this project, please visit this [GitLab repository](https://gitlab.com/twn-devops-projects/prometheus/monitoring).
+
+---
+</details>
+
+<details>
+  <summary><strong> 🟢 Demo Project: Configure Monitoring for a Third-Party Application</strong></summary><br>
+
+  **Technologies Used**:  
+  Prometheus, Kubernetes, Redis, Helm, Grafana  
+  <img src="./assets/twn-devops-projects/09-prometheus/project-tools-icons3.png" alt="Project Tools" width="250" align="right" />
+
+  **Project Description:**  
+  Monitor Redis by using Prometheus Exporter  
+  - Deploy Redis service in our cluster  
+  - Deploy Redis exporter using Helm Chart  
+  - Configure Alert Rules (when Redis is down or has too many connections)  
+  - Import Grafana Dashboard for Redis to visualize monitoring data in Grafana  
+
+  For detailed **steps and processes** followed during the project, please refer to the attached [PDF](./assets/twn-devops-projects/09-prometheus/Demo_Project_Configure_Monitoring_for_a_Third-Party_Application.pdf) document.
+
+  If you would like to explore the code for this project, please visit this [GitLab repository](https://gitlab.com/twn-devops-projects/prometheus/monitoring).
+
+---
+</details>
+
+<details>
+  <summary><strong> 🟢 Demo Project: Configure Monitoring for Own Application</strong></summary><br>
+
+  **Technologies Used**:  
+  Prometheus, Kubernetes, Node.js, Grafana, Docker, Docker Hub  
+  <img src="./assets/twn-devops-projects/09-prometheus/project-tools-icons4.png" alt="Project Tools" width="325" align="right" />
+
+  **Project Description:**  
+  - Configure our NodeJS application to collect and expose Metrics with Prometheus Client Library  
+  - Deploy the NodeJS application, which has a metrics endpoint configured, into Kubernetes cluster  
+  - Configure Prometheus to scrape this exposed metrics and visualize it in Grafana Dashboard  
+
+  For detailed **steps and processes** followed during the project, please refer to the attached [PDF](./assets/twn-devops-projects/09-prometheus/Demo_Project_Configure_Monitoring_for_Own_Application.pdf) document.
+
+  If you would like to explore the code for this project, please visit this [GitLab repository](https://gitlab.com/twn-devops-projects/prometheus/nodejs-app-monitoring).
+
+---
+</details>
+
+<!----------------------------------------------------------------------------------------------------------------------------->
 
 
 [Back to the top](#devops-portfolio)
