@@ -374,6 +374,7 @@ For detailed **steps and processes** followed during the project, please refer t
 
 
 
+<p align="right">- [Back to the top](#devops-portfolio)</p>
 
 ---
 ---
@@ -480,6 +481,8 @@ For detailed **steps and processes** followed during the project, please refer t
 ---
 </details>
 
+<p align="right">- [Back to the top](#devops-portfolio)</p>
+
 ---
 ---
 
@@ -487,5 +490,8 @@ For detailed **steps and processes** followed during the project, please refer t
 
 These are additional projects I worked on to expand my DevOps expertise:
 
+
+
+<p align="right">- [Back to the top](#devops-portfolio)</p>
 
 ---
