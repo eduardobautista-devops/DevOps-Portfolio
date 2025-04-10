@@ -931,8 +931,15 @@ Here are the projects I completed during when studying at The University of Chic
   <summary><strong> 🟢 Setting up a Virtual Machine and Getting Started</strong></summary><br>
 
   **Technologies Used:**
+  VMware Workstation Pro, Ubuntu 24.04 LTS, Python 3.8, Jupyter Notebook
 
   **Project Description:**
+  - Installed and configured VMware Workstation Pro
+  - Created a virtual machine with Ubuntu 24.04 LTS
+  - Installed Python 3.8 and set it as the default interpreter
+  - Installed Jupyter Notebook and tested its local usage
+  - Configured Jupyter Notebook for remote access
+  - Ensured network access for Jupyter and verified through browser
 
   For detailed **steps and processes** followed during the project, please refer to the attached [PDF](./assets/the-university-of-chicago/Assignment_1_Setting_up_a_Virtual_Machine_and_Getting_Started.pdf) document.
 
@@ -943,8 +950,15 @@ Here are the projects I completed during when studying at The University of Chic
   <summary><strong> 🟢 Cloud Computing</strong></summary><br>
 
   **Technologies Used:**
+  AWS EC2, Ubuntu Server 20.04 LTS, React, Node.js / npm, Jupyter Notebook, Shell scripting, Python, Crontab
 
   **Project Description:**
+  - Deployed a React-based video game browser app on an AWS EC2 Ubuntu instance
+  - Wrote a build script to automate software installation and launch
+  - Created and ran a Python script to simulate process load
+  - Monitored process count using cron jobs and logged results
+  - Installed Jupyter Notebook on EC2 and accessed it using Elastic IP
+  - Managed system tasks using Linux CLI and basic automation.
 
 For detailed **steps and processes** followed during the project, please refer to the attached [PDF](./assets/the-university-of-chicago/Assignment_2_Cloud_Computing.pdf) document.
 
@@ -955,8 +969,15 @@ For detailed **steps and processes** followed during the project, please refer t
   <summary><strong> 🟢 Create an Open-Source Software</strong></summary><br>
 
   **Technologies Used:**
+  React, npm, Git, Makefile, Shell scripting, serve (Node.js package)
 
   **Project Description:**
+  - Cloned an open-source React app from GitHub
+  - Wrote a Makefile to automate dependency installation and building process
+  - Created a shell script to orchestrate build and deployment steps
+  - Used serve to host the built app locally on port 3000
+  - Validated the app by accessing it via the browser
+  - Demonstrated automation using Makefile and shell scripting tools
 
 For detailed **steps and processes** followed during the project, please refer to the attached [PDF](./assets/the-university-of-chicago/Assignment_3_Create_an_Open-Source_Software.pdf) document.
 
@@ -967,8 +988,15 @@ For detailed **steps and processes** followed during the project, please refer t
   <summary><strong> 🟢 Git Repository</strong></summary><br>
 
   **Technologies Used:**
+  Git, GitHub, SSH
 
   **Project Description:**
+  - Created and cloned a GitHub repository using SSH
+  - Set up main as the default branch
+  - Created a new feature branch
+  - Modified a file and committed changes on the feature branch
+  - Pushed the feature branch to GitHub
+  - Verified both main and feature1 branches exist in the GitHub repository
 
 For detailed **steps and processes** followed during the project, please refer to the attached [PDF](./assets/the-university-of-chicago/Assignment_4_Git_Repository.pdf) document.
 
@@ -979,9 +1007,15 @@ For detailed **steps and processes** followed during the project, please refer t
   <summary><strong> 🟢 Creating a CI Environment</strong></summary><br>
 
   **Technologies Used:**
+  CircleCI, GitHub, Node.js, Makefile, Jest (unit testing)
 
   **Project Description:**
-
+  - Set up CircleCI to automate build, test, and deployment
+  - Integrated GitHub with CircleCI to trigger pipelines on push
+  - Created .circleci/config.yml to define CI workflow
+  - Built project and ran unit tests via a Makefile
+  - Stored test results and deployment artifacts automatically
+  - Configured CI to deploy builds to a timestamped directory on every commit.
 
 For detailed **steps and processes** followed during the project, please refer to the attached [PDF](./assets/the-university-of-chicago/Assignment_5_Creating_a_CI_Environment.pdf) document.
 
@@ -993,8 +1027,15 @@ For detailed **steps and processes** followed during the project, please refer t
   <summary><strong> 🟢 Deploying with Docker</strong></summary><br>
 
   **Technologies Used:**
+  Docker, React, DockerHub, AWS EC2
 
   **Project Description:**
+  - Created a Dockerfile for a React application
+  - Built a Docker image and pushed it to DockerHub
+  - Installed Docker on an AWS EC2 instance
+  - Pulled and ran the Docker image on EC2, exposing it via a port
+  - Verified deployment through a browser using EC2 public IP
+  - Learned container stop/start operations.
 
 For detailed **steps and processes** followed during the project, please refer to the attached [PDF](./assets/the-university-of-chicago/Assignment_6_Deploying_with_Docker.pdf) document.
 
@@ -1005,8 +1046,14 @@ For detailed **steps and processes** followed during the project, please refer t
   <summary><strong> 🟢 Creating an Amazon RDS MySQL Database for Software Configuration</strong></summary><br>
 
   **Technologies Used:**
+  Amazon RDS, MySQL, AWS EC2, SQL
 
   **Project Description:**
+  - Created an RDS MySQL instance on AWS
+  - Installed MySQL client on EC2 and connected to the RDS database
+  - Created a new database and two tables: upcoming_games and search_results
+  - Inserted sample game data and query logs
+  - Verified data via SQL queries from EC2
 
 For detailed **steps and processes** followed during the project, please refer to the attached [PDF](./assets/the-university-of-chicago/Assignment_7_Creating_an_Amazon_RDS_MySQL_Database_for_Software_Configuration.pdf) document.
 
@@ -1017,8 +1064,15 @@ For detailed **steps and processes** followed during the project, please refer t
   <summary><strong> 🟢 Datadog Dashboard</strong></summary><br>
 
   **Technologies Used:**
+  Datadog, MySQL, Ubuntu
 
   **Project Description:**
+- Installed and configured the Datadog Agent on Ubuntu
+- Set up MySQL and created a database to log queries
+- Integrated MySQL with Datadog to collect metrics
+- Created a custom dashboard to monitor system and MySQL metrics
+- Simulated load using a script and observed impact on system performance
+- Verified monitoring with query counts and visual widgets in Datadog
 
 For detailed **steps and processes** followed during the project, please refer to the attached [PDF](./assets/the-university-of-chicago/Assignment_8_Datadog_Dashboard.pdf) document.
 
