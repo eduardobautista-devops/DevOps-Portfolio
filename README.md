@@ -492,6 +492,16 @@ These are additional projects I worked on to expand my DevOps expertise:
 
 
 
-<p align="right">- [Back to the top](#devops-portfolio)</p>
+| |
+| --- |
+| [Back to the top](#devops-portfolio) {: style="text-align: right;" }
+
+
+
+ | [Back to the top](#devops-portfolio) {: style="text-align: right;" }
+
+ [Back to the top](#devops-portfolio) {: style="text-align: right;" }
+
+ [Back to the top](#devops-portfolio)
 
 ---
