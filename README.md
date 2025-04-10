@@ -117,8 +117,10 @@ If you would like to explore the code for this project, please visit this [GitLa
 ---
 </details>
 
-### AWS Services <img src="./assets/twn-devops-projects/02-aws/aws-icon.png" alt="Project Tools" width="35" align="left" />
+<!----------------------------------------------------------------------------------------------------------------------------->
+
 ---
+### AWS Services <img src="./assets/twn-devops-projects/02-aws/aws-icon.png" alt="Project Tools" width="35" align="left" />
 
 <details>
   <summary><strong>🟢 Demo Project: Deploy Web Application on EC2 Instance (manually)</strong></summary><br>
@@ -212,9 +214,11 @@ For detailed **steps and processes** followed during the project, please refer t
 ---
 </details>
 
-### Container Orchestration with Kubernetes <img src="./assets/twn-devops-projects/03-kubernetes/kubernetes-icon.png" alt="Project Tools" width="35" align="left" />
+<!----------------------------------------------------------------------------------------------------------------------------->
 
 ---
+### Container Orchestration with Kubernetes <img src="./assets/twn-devops-projects/03-kubernetes/kubernetes-icon.png" alt="Project Tools" width="35" align="left" />
+
 <details>
   <summary><strong> 🟢 Demo Project: Deploy MongoDB and Mongo Express into local K8s cluster</strong></summary><br>
 
@@ -335,6 +339,40 @@ For detailed **steps and processes** followed during the project, please refer t
 
 ---
 </details>
+
+<!----------------------------------------------------------------------------------------------------------------------------->
+
+---
+### Kubernetes on AWS - EKS <img src="./assets/twn-devops-projects/04-eks/eks-icon.png" alt="Project Tools" width="35" align="left" />
+
+<!----------------------------------------------------------------------------------------------------------------------------->
+
+---
+### Infrastructure as Code with Terraform <img src="./assets/twn-devops-projects/05-terraform/terraform-icon.png" alt="Project Tools" width="35" align="left" />
+
+<!----------------------------------------------------------------------------------------------------------------------------->
+
+---
+### Programming with Python <img src="./assets/twn-devops-projects/06-programming-with-python/python-icon.png" alt="Project Tools" width="35" align="left" />
+
+<!----------------------------------------------------------------------------------------------------------------------------->
+
+---
+### Automation with Python <img src="./assets/twn-devops-projects/07-automation-with-python/automation-icon.png" alt="Project Tools" width="35" align="left" />
+
+<!----------------------------------------------------------------------------------------------------------------------------->
+
+---
+### Configuration Management with Ansible <img src="./assets/twn-devops-projects/08-ansible/ansible-icon.png" alt="Project Tools" width="35" align="left" />
+
+<!----------------------------------------------------------------------------------------------------------------------------->
+
+---
+### Monitoring with Prometheus <img src="./assets/twn-devops-projects/09-prometheus/prometheus-icon.png" alt="Project Tools" width="35" align="left" />
+
+<!----------------------------------------------------------------------------------------------------------------------------->
+
+
 
 
 ---
