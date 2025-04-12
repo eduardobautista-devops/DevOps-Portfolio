@@ -484,134 +484,102 @@ For detailed **steps and processes** followed during the project, please refer t
 ### Infrastructure as Code with Terraform <img src="./assets/twn-devops-projects/05-terraform/terraform-icon.png" alt="Project Tools" width="35" align="left" />
 
 <details>
-  <summary><strong> 🟢 Demo Project: Create AWS EKS cluster with a Node Group</strong></summary><br>
+  <summary><strong>🟢 Demo Project: Automate AWS Infrastructure</strong></summary><br>
 
   **Technologies Used**:  
-  Kubernetes, AWS EKS <img src="twn-devops-projects/05-terraform/assets/twn-devops-projects/04-eks/project-tools-icons1.png" alt="Project Tools" width="125" align="right" />
+  Terraform, AWS, Docker, Linux, Git  
+  <img src="twn-devops-projects/05-terraform/assets/project-tools-icons1.png" alt="Project Tools" width="275" align="right" />
 
   **Project Description:**
-  - Configure necessary IAM Roles
-  - Create VPC with Cloudformation Template for Worker Nodes
-  - Create EKS cluster (Control Plane Nodes)
-  - Create Node Group for Worker Nodes and attach to EKS cluster
-  - Configure Auto-Scaling of worker nodes
-  - Deploy a sample application to EKS cluster
+  - Create TF project to automate provisioning AWS Infrastructure and its components, such as: VPC, Subnet, Route Table, Internet Gateway, EC2, Security Group
+  - Configure TF script to automate deploying Docker container to EC2 instance
 
-  For detailed **steps and processes** followed during the project, please refer to the attached [PDF](twn-devops-projects/05-terraform/assets/twn-devops-projects/04-eks/Demo_Project_Create_AWS_EKS_cluster_with_a_Node_Group.pdf) document.
+  For detailed **steps and processes** followed during the project, please refer to the attached [PDF](twn-devops-projects/05-terraform/assets/Demo_Project_Automate_AWS_Infrastructure.pdf) document.
+
+  GitLab Repositories:  
+  - [EC2 + Components](https://gitlab.com/twn-devops-projects/terraform/terraform-learn/-/tree/feature/deploy-to-ec2-default-components?ref_type=heads)  
+  - [Provisioners](https://gitlab.com/twn-devops-projects/terraform/terraform-learn/-/tree/feature/provisioners?ref_type=heads)
 
 ---
 </details>
 
 <details>
-  <summary><strong> 🟢 Demo Project: Create EKS cluster with Fargate profile</strong></summary><br>
+  <summary><strong>🟢 Demo Project: Modularize Project</strong></summary><br>
 
   **Technologies Used**:  
-  Kubernetes, AWS EKS, AWS Fargate <img src="twn-devops-projects/05-terraform/assets/twn-devops-projects/04-eks/project-tools-icons2.png" alt="Project Tools" width="175" align="right" />
+  Terraform, AWS, Docker, Linux, Git  
+  <img src="twn-devops-projects/05-terraform/assets/project-tools-icons1.png" alt="Project Tools" width="275" align="right" />
 
   **Project Description:**
-  - Create Fargate IAM Role
-  - Create Fargate Profile
-  - Deploy an example application to EKS cluster using Fargate profile
+  - Divide Terraform resources into reusable modules
 
-  For detailed **steps and processes** followed during the project, please refer to the attached [PDF](twn-devops-projects/05-terraform/assets/twn-devops-projects/04-eks/Demo_Project_Create_EKS_cluster_with_Fargate_profile.pdf) document.
+  For detailed **steps and processes** followed during the project, please refer to the attached [PDF](twn-devops-projects/05-terraform/assets/Demo_Project_Modularize_Project.pdf) document.
+
+  GitLab Repository:  
+  - [Modules](https://gitlab.com/twn-devops-projects/terraform/terraform-learn/-/tree/feature/modules?ref_type=heads)
 
 ---
 </details>
 
 <details>
-  <summary><strong> 🟢 Demo Project: Create EKS cluster with eksctl</strong></summary><br>
+  <summary><strong>🟢 Demo Project: Terraform and AWS EKS</strong></summary><br>
 
   **Technologies Used**:  
-  Kubernetes, AWS EKS, Eksctl, Linux <img src="twn-devops-projects/05-terraform/assets/twn-devops-projects/04-eks/project-tools-icons3.png" alt="Project Tools" width="225" align="right" />
+  Kubernetes, AWS EKS, Eksctl, Linux  
+  <img src="twn-devops-projects/05-terraform/assets/project-tools-icons2.png" alt="Project Tools" width="325" align="right" />
 
-  **Project Description:**
-  - Create EKS cluster using eksctl tool that reduces the manual effort of creating an EKS cluster
+  **Project Description:** 
+  - Automate provisioning EKS cluster with Terraform
 
-  For detailed **steps and processes** followed during the project, please refer to the attached [PDF](twn-devops-projects/05-terraform/assets/twn-devops-projects/04-eks/Demo_Project_Create_EKS_cluster_with_eksctl.pdf) document.
+  For detailed **steps and processes** followed during the project, please refer to the attached [PDF](twn-devops-projects/05-terraform/assets/Demo_Project_Terraform_and_AWS_EKS.pdf) document.
+
+  GitLab Repository:  
+  - [EKS](https://gitlab.com/twn-devops-projects/terraform/terraform-learn/-/tree/feature/eks?ref_type=heads)
 
 ---
 </details>
 
 <details>
-  <summary><strong> 🟢 Demo Project: CD - Deploy to EKS cluster from Jenkins Pipeline</strong></summary><br>
+  <summary><strong>🟢 Demo Project: Complete CI/CD with Terraform</strong></summary><br>
 
   **Technologies Used**:  
-  Kubernetes, Jenkins, AWS EKS, Docker, Linux <img src="twn-devops-projects/05-terraform/assets/twn-devops-projects/04-eks/project-tools-icons4.png" alt="Project Tools" width="250" align="right" />
+  Terraform, Jenkins, Docker, AWS, Git, Java, Maven, Linux, Docker Hub  
+  <img src="twn-devops-projects/05-terraform/assets/project-tools-icons3.png" alt="Project Tools" width="450" align="right" />
 
   **Project Description:**
-  - Install kubectl and aws-iam-authenticator on a Jenkins server
-  - Create kubeconfig file to connect to EKS cluster and add it on Jenkins server
-  - Add AWS credentials on Jenkins for AWS account authentication
-  - Extend and adjust Jenkinsfile of the previous CI/CD pipeline to configure connection to EKS cluster
-
-  For detailed **steps and processes** followed during the project, please refer to the attached [PDF](twn-devops-projects/05-terraform/assets/twn-devops-projects/04-eks/Demo_Project_CD_-_Deploy_to_EKS_cluster_from_Jenkins_Pipeline.pdf) document.
-
-  If you would like to explore the code for this project, please visit this [GitLab repository](https://gitlab.com/twn-devops-projects/eks/java-maven-app/-/tree/deploy-on-k8s?ref_type=heads).
-
----
-</details>
-
-<details>
-  <summary><strong> 🟢 Demo Project: CD - Deploy to LKE cluster from Jenkins Pipeline</strong></summary><br>
-
-  **Technologies Used**:  
-  Kubernetes, Jenkins, Linode LKE, Docker, Linux <img src="twn-devops-projects/05-terraform/assets/twn-devops-projects/04-eks/project-tools-icons5.png" alt="Project Tools" width="225" align="right" />
-
-  **Project Description:**
-  - Create K8s cluster on LKE
-  - Install kubectl as Jenkins Plugin
-  - Adjust Jenkinsfile to use Plugin and deploy to LKE cluster
-
-  For detailed **steps and processes** followed during the project, please refer to the attached [PDF](twn-devops-projects/05-terraform/assets/twn-devops-projects/04-eks/Demo_Project_CD_-_Deploy_to_LKE_cluster_from_Jenkins_Pipeline.pdf) document.
-
-  If you would like to explore the code for this project, please visit this [GitLab repository](https://gitlab.com/twn-devops-projects/eks/java-maven-app/-/tree/deploy-to-lke?ref_type=heads).
-
----
-</details>
-
-<details>
-  <summary><strong> 🟢 Demo Project: Complete CI/CD Pipeline with EKS and private DockerHub registry</strong></summary><br>
-
-  **Technologies Used**:  
-  Kubernetes, Jenkins, AWS EKS, Docker Hub, Java, Maven, Linux, Docker, Git <img src="twn-devops-projects/05-terraform/assets/twn-devops-projects/04-eks/project-tools-icons6.png" alt="Project Tools" width="450" align="right" />
-
-  **Project Description:**
-  - Write K8s manifest files for Deployment and Service configuration
-  - Integrate deploy step in the CI/CD pipeline to deploy newly built application image from DockerHub private registry to the EKS cluster
+  Integrate provisioning stage into complete CI/CD Pipeline to automate provisioning server instead of deploying to an existing server
+  - Create SSH Key Pair
+  - Install Terraform inside Jenkins container
+  - Add Terraform configuration to application’s git repository
+  - Adjust Jenkinsfile to add “provision” step to the CI/CD pipeline that provisions EC2 instance
   - So the complete CI/CD project we build has the following configuration:
-    - CI step: Increment version
-    - CI step: Build artifact for Java Maven application
-    - CI step: Build and push Docker image to DockerHub
-    - CD step: Deploy new application version to EKS cluster
-    - CD step: Commit the version update
+    - CI step: Build artifact for Java Maven application  
+    - CI step: Build and push Docker image to Docker Hub  
+    - CD step: Automatically provision EC2 instance using TF  
+    - CD step: Deploy new application version on the provisioned EC2 instance with Docker Compose
 
-  For detailed **steps and processes** followed during the project, please refer to the attached [PDF](twn-devops-projects/05-terraform/assets/twn-devops-projects/04-eks/Demo_Project_Complete_CICD_Pipeline_with_EKS_and_private_DockerHub_registry.pdf) document.
+  For detailed **steps and processes** followed during the project, please refer to the attached [PDF](twn-devops-projects/05-terraform/assets/Demo_Project_Complete_CICD_with_Terraform.pdf) document.
 
-  If you would like to explore the code for this project, please visit this [GitLab repository](https://gitlab.com/twn-devops-projects/eks/java-maven-app/-/tree/jenkins-jobs?ref_type=heads).
+  GitLab Repository:  
+  - [CI/CD Project](https://gitlab.com/twn-devops-projects/terraform/java-maven-app/-/tree/jenkinsfile-sshagent?ref_type=heads)
 
 ---
 </details>
 
 <details>
-  <summary><strong> 🟢 Demo Project: Complete CI/CD Pipeline with EKS and AWS ECR</strong></summary><br>
+  <summary><strong>🟢 Demo Project: Configure a Shared Remote State</strong></summary><br>
 
   **Technologies Used**:  
-  Kubernetes, Jenkins, AWS EKS, AWS ECR, Java, Maven, Linux, Docker, Git <img src="twn-devops-projects/05-terraform/assets/twn-devops-projects/04-eks/project-tools-icons7.png" alt="Project Tools" width="450" align="right" />
+  Terraform, AWS S3  
+  <img src="twn-devops-projects/05-terraform/assets/project-tools-icons4.png" alt="Project Tools" width="175" align="right" />
 
-  **Project Description:**
-  - Create private AWS ECR Docker repository
-  - Adjust Jenkinsfile to build and push Docker Image to AWS ECR
-  - Integrate deploying to K8s cluster in the CI/CD pipeline from AWS ECR private registry
-  - So the complete CI/CD project we build has the following configuration:
-    - CI step: Increment version
-    - CI step: Build artifact for Java Maven application
-    - CI step: Build and push Docker image to AWS ECR
-    - CD step: Deploy new application version to EKS cluster
-    - CD step: Commit the version update
+  **Project Description:** 
+  - Configure Amazon S3 as remote storage for Terraform state
 
-  For detailed **steps and processes** followed during the project, please refer to the attached [PDF](twn-devops-projects/05-terraform/assets/twn-devops-projects/04-eks/Demo_Project_Complete_CICD_Pipeline_with_EKS_and_AWS_ECR.pdf) document.
+  For detailed **steps and processes** followed during the project, please refer to the attached [PDF](twn-devops-projects/05-terraform/assets/Demo_Project_Configure_a_Shared_Remote_State.pdf) document.
 
-  If you would like to explore the code for this project, please visit this [GitLab repository](https://gitlab.com/twn-devops-projects/eks/java-maven-app/-/tree/jenkins-jobs-AWS?ref_type=heads).
+  GitLab Repository:  
+  - [Remote State](https://gitlab.com/twn-devops-projects/terraform/java-maven-app/-/tree/jenkinsfile-sshagent?ref_type=heads)
 
 ---
 </details>
