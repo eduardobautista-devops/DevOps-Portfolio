@@ -752,52 +752,150 @@ For detailed **steps and processes** followed during the project, please refer t
 <details>
   <summary><strong>🟢 Demo Project: Automate Node.js application Deployment</strong></summary><br>
 
-  **Technologies Used**:
-  Ansible, Node.js, DigitalOcean, Linux <img src="./twn-devops-projects/08-ansible/assets/project-tools-icons1.png" alt="Project Tools" width="200" align="right" />
+  **Technologies Used**:  
+  Ansible, Node.js, DigitalOcean, Linux <img src="twn-devops-projects/08-ansible/assets/project-tools-icons1.png" alt="Project Tools" width="200" align="right" />
 
   **Project Description:**
   - Create Server on DigitalOcean
-- Write Ansible Playbook that installs necessary technologies, creates Linux user for an application and deploys a NodeJS application with that user
-  For detailed **steps and processes** followed during the project, please refer to the attached [PDF](./twn-devops-projects/08-ansible/assets/Demo_Project_Automate_Node.js_application_deployment.pdf) document.
+  - Write Ansible Playbook that installs necessary technologies, creates Linux user for an application and deploys a NodeJS application with that user
+
+  For detailed **steps and processes** followed during the project, please refer to the attached [PDF](twn-devops-projects/08-ansible/assets/Demo_Project_Automate_Node.js_application_deployment.pdf) document.
 
   If you would like to explore the code for this project, please visit these...
   - [GitLab repository for terraform](https://gitlab.com/twn-devops-projects/ansible/terraform-learn/-/tree/feature/deploy-to-ec2-default-components?ref_type=heads)
   - [GitLab repository for deploying Node JS application](https://gitlab.com/twn-devops-projects/ansible/ansible-projects/-/blob/main/deploy-node.yaml?ref_type=heads)
   - [GitLab repository for Ansible Variables](https://gitlab.com/twn-devops-projects/ansible/ansible-projects/-/tree/feature/variables?ref_type=heads)
+
 ---
 </details>
 
 <details>
   <summary><strong>🟢 Demo Project: Automate Nexus Deployment</strong></summary><br>
 
-  **Technologies Used**:
-  Ansible, Nexus, DigitalOcean, Java, Linux <img src="./twn-devops-projects/08-ansible/assets/project-tools-icons2.png" alt="Project Tools" width="200" align="right" />
+  **Technologies Used**:  
+  Ansible, Nexus, DigitalOcean, Java, Linux <img src="twn-devops-projects/08-ansible/assets/project-tools-icons2.png" alt="Project Tools" width="200" align="right" />
 
   **Project Description:**
   - Create Server on DigitalOcean
-- Write Ansible Playbook that creates Linux user for Nexus, configure server, installs and deploys Nexus and verifies that it is running successfully
-  For detailed **steps and processes** followed during the project, please refer to the attached [PDF](./twn-devops-projects/08-ansible/assets/Demo_Project_Automate_Nexus_Deployment.pdf) document.
+  - Write Ansible Playbook that creates Linux user for Nexus, configure server, installs and deploys Nexus and verifies that it is running successfully
 
-  If you would like to explore the code for this project, please visit these...
+  For detailed **steps and processes** followed during the project, please refer to the attached [PDF](twn-devops-projects/08-ansible/assets/Demo_Project_Automate_Nexus_Deployment.pdf) document.
+
   - [GitLab repository](https://gitlab.com/twn-devops-projects/ansible/ansible-projects/-/blob/main/deploy-nexus.yaml?ref_type=heads)
+
 ---
 </details>
 
 <details>
   <summary><strong>🟢 Demo Project: Ansible and Docker</strong></summary><br>
 
-  **Technologies Used**:
-  Ansible, AWS, Docker, Terraform, Linux <img src="./twn-devops-projects/08-ansible/assets/project-tools-icons3.png" alt="Project Tools" width="200" align="right" />
+  **Technologies Used**:  
+  Ansible, AWS, Docker, Terraform, Linux <img src="twn-devops-projects/08-ansible/assets/project-tools-icons3.png" alt="Project Tools" width="225" align="right" />
 
-  **Project Description:**
-  - Create AWS EC2 Instance with Terraform
-- Write Ansible Playbook that installs necessary technologies like Docker and Docker Compose, copies docker-compose file to the server and starts the Docker containers configured inside the dockercompose file
-  For detailed **steps and processes** followed during the project, please refer to the attached [PDF](./twn-devops-projects/08-ansible/assets/Demo_Project_Ansible_and_Docker.pdf) document.
+  **Project Description:**  
+  - Create AWS EC2 Instance with Terraform  
+  - Write Ansible Playbook that installs Docker and Docker Compose  
+  - Copies docker-compose file to the server and starts the containers
 
-  If you would like to explore the code for this project, please visit these...
-  - [GitLab repository for terraform](https://gitlab.com/twn-devops-projects/ansible/terraform-learn/-/tree/feature/deploy-to-ec2-default-components?ref_type=heads)
-  - [GitLab repository for the project](https://gitlab.com/twn-devops-projects/ansible/ansible-projects/-/blob/main/deploy-docker-ec2-user.yaml?ref_type=heads)
+  For detailed **steps and processes** followed during the project, please refer to the attached [PDF](twn-devops-projects/08-ansible/assets/Demo_Project_Ansible_and_Docker.pdf) document.
+
+  - [GitLab repository for terraform](https://gitlab.com/twn-devops-projects/ansible/terraform-learn/-/tree/feature/deploy-to-ec2-default-components?ref_type=heads)  
+  - [GitLab repository for the project](https://gitlab.com/twn-devops-projects/ansible/ansible-projects/-/blob/main/deploy-docker-ec2-user.yaml?ref_type=heads)  
   - [GitLab repository for MySQL](https://gitlab.com/twn-devops-projects/ansible/bootcamp-java-mysql-project)
+
+---
+</details>
+
+<details>
+  <summary><strong>🟢 Demo Project: Ansible Integration in Terraform</strong></summary><br>
+
+  **Technologies Used**:  
+  Ansible, Terraform, AWS, Docker, Linux <img src="twn-devops-projects/08-ansible/assets/project-tools-icons4.png" alt="Project Tools" width="250" align="right" />
+
+  **Project Description:**  
+  - Create Ansible Playbook for Terraform integration  
+  - Configure Terraform to trigger Ansible playbook after provisioning EC2
+
+  For detailed **steps and processes** followed during the project, please refer to the attached [PDF](twn-devops-projects/08-ansible/assets/Demo_Project_Ansible_Integration_in_Terraform.pdf) document.
+
+  - [GitLab repository for terraform](https://gitlab.com/twn-devops-projects/ansible/terraform-learn/-/tree/feature/deploy-to-ec2-default-components?ref_type=heads)  
+  - [GitLab repository for the project](https://gitlab.com/twn-devops-projects/ansible/ansible-projects/-/blob/main/deploy-docker-new-user.yaml?ref_type=heads)
+
+---
+</details>
+
+<details>
+  <summary><strong>🟢 Demo Project: Configure Dynamic Inventory</strong></summary><br>
+
+  **Technologies Used**:  
+  Ansible, Terraform, AWS <img src="twn-devops-projects/08-ansible/assets/project-tools-icons5.png" alt="Project Tools" width="150" align="right" />
+
+  **Project Description:**  
+  - Create EC2 Instance with Terraform  
+  - Configure Ansible EC2 dynamic inventory plugin
+
+  For detailed **steps and processes** followed during the project, please refer to the attached [PDF](twn-devops-projects/08-ansible/assets/Demo_Project_Configure_Dynamic_Inventory.pdf) document.
+
+  - [GitLab repository for terraform](https://gitlab.com/twn-devops-projects/ansible/terraform-learn/-/tree/feature/deploy-to-ec2-default-components?ref_type=heads)  
+  - [GitLab repository for the project](https://gitlab.com/twn-devops-projects/ansible/ansible-projects/-/blob/main/deploy-docker-new-user.yaml?ref_type=heads)
+
+---
+</details>
+
+<details>
+  <summary><strong>🟢 Demo Project: Automate Kubernetes Deployment</strong></summary><br>
+
+  **Technologies Used**:  
+  Ansible, Terraform, Kubernetes, AWS EKS, Python, Linux <img src="twn-devops-projects/08-ansible/assets/project-tools-icons6.png" alt="Project Tools" width="325" align="right" />
+
+  **Project Description:**  
+  - Create EKS cluster with Terraform  
+  - Use Ansible to deploy app in a new K8s namespace
+
+  For detailed **steps and processes** followed during the project, please refer to the attached [PDF](twn-devops-projects/08-ansible/assets/Demo_Project_Automate_Kubernetes_Deployment.pdf) document.
+
+  - [GitLab repository for terraform](https://gitlab.com/twn-devops-projects/ansible/terraform-learn/-/tree/feature/eks?ref_type=heads)  
+  - [GitLab repository for the project](https://gitlab.com/twn-devops-projects/ansible/ansible-projects/-/blob/main/deploy-to-k8s.yaml?ref_type=heads)
+
+---
+</details>
+
+<details>
+  <summary><strong>🟢 Demo Project: Ansible Integration in Jenkins</strong></summary><br>
+
+  **Technologies Used**:  
+  Ansible, Jenkins, DigitalOcean, AWS, Boto3, Docker, Java, Maven, Linux, Git <img src="twn-devops-projects/08-ansible/assets/project-tools-icons7.png" alt="Project Tools" width="425" align="right" />
+
+  **Project Description:**  
+  - Create and configure servers for Jenkins and Ansible Control Node  
+  - Write Ansible Playbook to configure EC2 Instances  
+  - Set up Jenkins to trigger Ansible Playbook as part of CI/CD pipeline  
+  - Use Jenkinsfile to:
+    - Connect to remote Ansible Control Node  
+    - Copy playbook/config files and ssh keys  
+    - Install Ansible, Python3, and Boto3  
+    - Execute playbook remotely
+
+  For detailed **steps and processes** followed during the project, please refer to the attached [PDF](twn-devops-projects/08-ansible/assets/Demo_Project_Ansible_Integration_in_Jenkins.pdf) document.
+
+  - [GitLab repository](https://gitlab.com/twn-devops-projects/ansible/java-maven-app/-/tree/feature/ansible?ref_type=heads)
+
+---
+</details>
+
+<details>
+  <summary><strong>🟢 Demo Project: Structure Playbooks with Ansible Roles</strong></summary><br>
+
+  **Technologies Used**:  
+  Ansible, Docker, AWS, Linux <img src="twn-devops-projects/08-ansible/assets/project-tools-icons8.png" alt="Project Tools" width="200" align="right" />
+
+  **Project Description:**  
+  - Refactor large playbooks into modular structure using Ansible Roles
+
+  For detailed **steps and processes** followed during the project, please refer to the attached [PDF](twn-devops-projects/08-ansible/assets/Demo_Project_Structure_Playbooks_with_Ansible_Roles.pdf) document.
+
+  - [GitLab repository](https://gitlab.com/twn-devops-projects/ansible/ansible-projects/-/tree/feature/roles?ref_type=heads)
+
 ---
 </details>
 
