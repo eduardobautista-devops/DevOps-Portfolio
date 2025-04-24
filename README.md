@@ -1155,7 +1155,7 @@ For detailed **steps and processes** followed during the project, please refer t
 These are additional projects I worked on to expand my DevOps expertise:
 
 <details>
-  <summary><strong> 🟢 My personal website – [eduardobautista-devops.com](https://eduardobautista-devops.com)</strong></summary><br>
+  <summary><strong> 🟢 <a href="https://eduardobautista-devops.com">My personal website – eduardobautista-devops.com</a></strong></summary><br>
 
   **Technologies Used:**  
   GoDaddy, Terraform, AWS (ACM, Route 53, S3, CloudFront), GitLab CI/CD
