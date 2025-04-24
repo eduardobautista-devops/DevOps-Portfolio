@@ -1154,6 +1154,22 @@ For detailed **steps and processes** followed during the project, please refer t
 
 These are additional projects I worked on to expand my DevOps expertise:
 
+<details>
+  <summary><strong> 🟢 My personal website – [eduardobautista-devops.com](https://eduardobautista-devops.com)</strong></summary><br>
+
+  **Technologies Used:**  
+  GoDaddy, Terraform, AWS (ACM, Route 53, S3, CloudFront), GitLab CI/CD
+
+  **Project Description:**
+- Built a static and responsive website using HTML, CSS, and JavaScript.
+- Registered a personal domain with GoDaddy.
+- Configured AWS ACM and Route 53 (Hosted Zone) for domain management.
+- Provisioned AWS S3 and CloudFront resources using Terraform.
+- Set up a GitLab pipeline to upload the website to the S3 bucket and automatically invalidate the CloudFront cache for updates.
+
+---
+</details>
+
 
 [Back to the top](#devops-portfolio)
 
