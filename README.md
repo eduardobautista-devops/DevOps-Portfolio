@@ -1170,6 +1170,24 @@ These are additional projects I worked on to expand my DevOps expertise:
 ---
 </details>
 
+<details>
+  <summary><strong> 🟢 DevSecOps Project: Netflix Clone Deployment on Kubernetes</strong></summary><br>
+
+  **Technologies Used**:  
+  Docker, SonarQube, Trivy, Jenkins, AWS, Kubernetes, ArgoCD, Prometheus & Grafana
+ 
+  **Project Description:**  
+  Deploy a Netflix Clone application as a Docker container on a Kubernetes cluster using a secure CI/CD pipeline:  
+  - Configure Jenkins pipeline to build, scan, and push Docker images  
+  - Integrate SonarQube and Trivy for code and image scanning  
+  - Monitor application and cluster using Prometheus and Grafana  
+  - Automate deployments with ArgoCD and Helm  
+
+  If you would like to explore the code for this project, please visit this [GitHub repository](https://github.com/eduardobautista-devops/DevSecOps-Pipeline-Project-Deploy-Netflix-Clone-on-Kubernetes.git).
+
+---
+</details>
+
 
 [Back to the top](#devops-portfolio)
 
