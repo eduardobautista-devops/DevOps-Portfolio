@@ -15,12 +15,11 @@ Each track links to my GitLab group, where you’ll find detailed project descri
 
 ---
 
-### Build Automation & CI/CD with Jenkins <img src="./assets/twn-devops-projects/jenkins_icon.png" alt="Jenkins" width="28" align="left" />
+### Build Automation & CI/CD with Jenkins <img src="https://eduardobautista-devops-assets.s3.us-east-1.amazonaws.com/jenkins_icon.png" alt="Jenkins" width="28" align="left" />
 
 **Projects**
 - 🟢 Install Jenkins on a cloud VM and run it via Docker  
-- 🟢 Create a CI pipeline with Jenkinsfile  
-  _(Freestyle, Pipeline, Multibranch Pipeline)_  
+- 🟢 Create a CI pipeline with Jenkinsfile _(Freestyle, Pipeline, Multibranch Pipeline)_  
 - 🟢 Create a Jenkins Shared Library (JSL) and consume it in pipelines  
 - 🟢 Configure Git webhooks to trigger pipelines automatically on push  
 - 🟢 Dynamically increment the application version in the pipeline  
@@ -29,7 +28,7 @@ Each track links to my GitLab group, where you’ll find detailed project descri
 
 ---
 
-### AWS Services <img src="./assets/twn-devops-projects/aws_icon.png" alt="AWS" width="28" align="left" />
+### AWS Services <img src="https://eduardobautista-devops-assets.s3.us-east-1.amazonaws.com/aws_icon.png" alt="AWS" width="28" align="left" />
 
 **Projects**
 - 🟢 Deploy a web application on an EC2 instance (manually)  
@@ -42,7 +41,7 @@ Each track links to my GitLab group, where you’ll find detailed project descri
 
 ---
 
-### Container Orchestration with Kubernetes <img src="./assets/twn-devops-projects/kubernetes_icon.png" alt="K8s" width="28" align="left" />
+### Container Orchestration with Kubernetes <img src="https://eduardobautista-devops-assets.s3.us-east-1.amazonaws.com/kubernetes_icon.png" alt="K8s" width="28" align="left" />
 
 **Projects**
 - 🟢 Deploy MongoDB & Mongo Express to a local cluster (Minikube)  
@@ -57,7 +56,7 @@ Each track links to my GitLab group, where you’ll find detailed project descri
 
 ---
 
-### Kubernetes on AWS — EKS <img src="./assets/twn-devops-projects/eks_icon.png" alt="EKS" width="28" align="left" />
+### Kubernetes on AWS — EKS <img src="https://eduardobautista-devops-assets.s3.us-east-1.amazonaws.com/eks_icon.png" alt="EKS" width="28" align="left" />
 
 **Projects**
 - 🟢 Create an AWS EKS cluster with a managed Node Group  
@@ -72,7 +71,7 @@ Each track links to my GitLab group, where you’ll find detailed project descri
 
 ---
 
-### Infrastructure as Code with Terraform <img src="./assets/twn-devops-projects/terraform_icon.png" alt="Terraform" width="28" align="left" />
+### Infrastructure as Code with Terraform <img src="https://eduardobautista-devops-assets.s3.us-east-1.amazonaws.com/terraform_icon.png" alt="Terraform" width="28" align="left" />
 
 **Projects**
 - 🟢 Automate AWS infrastructure (VPC, subnets, security groups, EC2, etc.)  
@@ -85,7 +84,7 @@ Each track links to my GitLab group, where you’ll find detailed project descri
 
 ---
 
-### Programming with Python <img src="./assets/twn-devops-projects/python_icon.png" alt="Python" width="28" align="left" />
+### Programming with Python <img src="https://eduardobautista-devops-assets.s3.us-east-1.amazonaws.com/python_icon.png" alt="Python" width="28" align="left" />
 
 **Projects**
 - 🟢 Write a countdown application (CLI)  
@@ -96,7 +95,7 @@ Each track links to my GitLab group, where you’ll find detailed project descri
 
 ---
 
-### Configuration Management with Ansible <img src="./assets/twn-devops-projects/ansible_icon.png" alt="Ansible" width="28" align="left" />
+### Configuration Management with Ansible <img src="https://eduardobautista-devops-assets.s3.us-east-1.amazonaws.com/ansible_icon.png" alt="Ansible" width="28" align="left" />
 
 **Projects**
 - 🟢 Automate Node.js application deployment  
@@ -112,7 +111,7 @@ Each track links to my GitLab group, where you’ll find detailed project descri
 
 ---
 
-### Monitoring with Prometheus <img src="./assets/twn-devops-projects/prometheus_icon.png" alt="Prometheus" width="28" align="left" />
+### Monitoring with Prometheus <img src="https://eduardobautista-devops-assets.s3.us-east-1.amazonaws.com/prometheus_icon.png" alt="Prometheus" width="28" align="left" />
 
 **Projects**
 - 🟢 Install Prometheus Stack in Kubernetes (Prometheus, Alertmanager, Grafana)  
