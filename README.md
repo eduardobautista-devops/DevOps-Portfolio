@@ -18,11 +18,11 @@ Each track links to my GitLab group, where you’ll find detailed project descri
 ### Build Automation & CI/CD with Jenkins <img src="https://eduardobautista-devops-assets.s3.us-east-1.amazonaws.com/jenkins_icon.png" alt="Jenkins" width="28" align="left" />
 
 **Projects**
-- 🟢 Install Jenkins on a cloud VM and run it via Docker  
-- 🟢 Create a CI pipeline with Jenkinsfile _(Freestyle, Pipeline, Multibranch Pipeline)_  
-- 🟢 Create a Jenkins Shared Library (JSL) and consume it in pipelines  
-- 🟢 Configure Git webhooks to trigger pipelines automatically on push  
-- 🟢 Dynamically increment the application version in the pipeline  
+🟢 Install Jenkins on a cloud VM and run it via Docker  
+🟢 Create a CI pipeline with Jenkinsfile _(Freestyle, Pipeline, Multibranch Pipeline)_  
+🟢 Create a Jenkins Shared Library (JSL) and consume it in pipelines  
+🟢 Configure Git webhooks to trigger pipelines automatically on push  
+🟢 Dynamically increment the application version in the pipeline  
 
 🔗 **Explore these projects at:** [gitlab.com/eduardobautista-twn-devops-projects/jenkins](https://gitlab.com/eduardobautista-twn-devops-projects/jenkins)
 
@@ -31,11 +31,11 @@ Each track links to my GitLab group, where you’ll find detailed project descri
 ### AWS Services <img src="https://eduardobautista-devops-assets.s3.us-east-1.amazonaws.com/aws_icon.png" alt="AWS" width="28" align="left" />
 
 **Projects**
-- 🟢 Deploy a web application on an EC2 instance (manually)  
-- 🟢 CD — Deploy from Jenkins to EC2 (Docker)  
-- 🟢 CD — Deploy from Jenkins to EC2 (Docker Compose)  
-- 🟢 Complete CI/CD pipeline (Docker Compose, dynamic versioning)  
-- 🟢 Interacting with AWS CLI (users, groups, policies, EC2, keys, etc.)  
+🟢 Deploy a web application on an EC2 instance (manually)  
+🟢 CD — Deploy from Jenkins to EC2 (Docker)  
+🟢 CD — Deploy from Jenkins to EC2 (Docker Compose)  
+🟢 Complete CI/CD pipeline (Docker Compose, dynamic versioning)  
+🟢 Interacting with AWS CLI (users, groups, policies, EC2, keys, etc.)  
 
 🔗 **Explore these projects at:** [gitlab.com/eduardobautista-twn-devops-projects/aws](https://gitlab.com/eduardobautista-twn-devops-projects/aws)
 
@@ -44,13 +44,13 @@ Each track links to my GitLab group, where you’ll find detailed project descri
 ### Container Orchestration with Kubernetes <img src="https://eduardobautista-devops-assets.s3.us-east-1.amazonaws.com/kubernetes_icon.png" alt="K8s" width="28" align="left" />
 
 **Projects**
-- 🟢 Deploy MongoDB & Mongo Express to a local cluster (Minikube)  
-- 🟢 Deploy Mosquitto with ConfigMap & Secret volume types  
-- 🟢 Install stateful MongoDB on K8s using Helm (LKE)  
-- 🟢 Deploy app to K8s from a private Docker registry (ECR/Docker Hub)  
-- 🟢 Deploy a microservices app on K8s with production and security best practices  
-- 🟢 Create a reusable Helm chart for microservices  
-- 🟢 Deploy microservices with Helmfile  
+🟢 Deploy MongoDB & Mongo Express to a local cluster (Minikube)  
+🟢 Deploy Mosquitto with ConfigMap & Secret volume types  
+🟢 Install stateful MongoDB on K8s using Helm (LKE)  
+🟢 Deploy app to K8s from a private Docker registry (ECR/Docker Hub)  
+🟢 Deploy a microservices app on K8s with production and security best practices  
+🟢 Create a reusable Helm chart for microservices  
+🟢 Deploy microservices with Helmfile  
 
 🔗 **Explore these projects at:** [gitlab.com/eduardobautista-twn-devops-projects/kubernetes](https://gitlab.com/eduardobautista-twn-devops-projects/kubernetes)
 
@@ -59,13 +59,13 @@ Each track links to my GitLab group, where you’ll find detailed project descri
 ### Kubernetes on AWS — EKS <img src="https://eduardobautista-devops-assets.s3.us-east-1.amazonaws.com/eks_icon.png" alt="EKS" width="28" align="left" />
 
 **Projects**
-- 🟢 Create an AWS EKS cluster with a managed Node Group  
-- 🟢 Create an EKS cluster with a Fargate profile  
-- 🟢 Create an EKS cluster using `eksctl`  
-- 🟢 CD — Deploy to EKS from Jenkins pipeline  
-- 🟢 CD — Deploy to Linode LKE from Jenkins pipeline  
-- 🟢 Complete CI/CD with EKS & private DockerHub registry  
-- 🟢 Complete CI/CD with EKS & AWS ECR  
+🟢 Create an AWS EKS cluster with a managed Node Group  
+🟢 Create an EKS cluster with a Fargate profile  
+🟢 Create an EKS cluster using `eksctl`  
+🟢 CD — Deploy to EKS from Jenkins pipeline  
+🟢 CD — Deploy to Linode LKE from Jenkins pipeline  
+🟢 Complete CI/CD with EKS & private DockerHub registry  
+🟢 Complete CI/CD with EKS & AWS ECR  
 
 🔗 **Explore these projects at:** [gitlab.com/eduardobautista-twn-devops-projects/eks](https://gitlab.com/eduardobautista-twn-devops-projects/eks)
 
@@ -74,11 +74,11 @@ Each track links to my GitLab group, where you’ll find detailed project descri
 ### Infrastructure as Code with Terraform <img src="https://eduardobautista-devops-assets.s3.us-east-1.amazonaws.com/terraform_icon.png" alt="Terraform" width="28" align="left" />
 
 **Projects**
-- 🟢 Automate AWS infrastructure (VPC, subnets, security groups, EC2, etc.)  
-- 🟢 Modularize Terraform projects (reusable modules)  
-- 🟢 Provision EKS clusters with Terraform  
-- 🟢 Complete CI/CD with a Terraform provisioning step in Jenkins  
-- 🟢 Configure a shared remote state using S3  
+🟢 Automate AWS infrastructure (VPC, subnets, security groups, EC2, etc.)  
+🟢 Modularize Terraform projects (reusable modules)  
+🟢 Provision EKS clusters with Terraform  
+🟢 Complete CI/CD with a Terraform provisioning step in Jenkins  
+🟢 Configure a shared remote state using S3  
 
 🔗 **Explore these projects at:** [gitlab.com/eduardobautista-twn-devops-projects/terraform](https://gitlab.com/eduardobautista-twn-devops-projects/terraform)
 
@@ -87,9 +87,9 @@ Each track links to my GitLab group, where you’ll find detailed project descri
 ### Programming with Python <img src="https://eduardobautista-devops-assets.s3.us-east-1.amazonaws.com/python_icon.png" alt="Python" width="28" align="left" />
 
 **Projects**
-- 🟢 Write a countdown application (CLI)  
-- 🟢 Automate spreadsheet processing with Python  
-- 🟢 Perform API requests to GitLab (list public repos)  
+🟢 Write a countdown application (CLI)  
+🟢 Automate spreadsheet processing with Python  
+🟢 Perform API requests to GitLab (list public repos)  
 
 🔗 **Explore these projects at:** [gitlab.com/eduardobautista-twn-devops-projects/programming-with-python](https://gitlab.com/eduardobautista-twn-devops-projects/programming-with-python)
 
@@ -98,14 +98,14 @@ Each track links to my GitLab group, where you’ll find detailed project descri
 ### Configuration Management with Ansible <img src="https://eduardobautista-devops-assets.s3.us-east-1.amazonaws.com/ansible_icon.png" alt="Ansible" width="28" align="left" />
 
 **Projects**
-- 🟢 Automate Node.js application deployment  
-- 🟢 Automate Nexus deployment  
-- 🟢 Configure Docker on EC2 with Ansible  
-- 🟢 Integrate Ansible in Terraform (provision → configure)  
-- 🟢 Configure dynamic EC2 inventory plugin  
-- 🟢 Automate Kubernetes deployment with Ansible  
-- 🟢 Integrate Ansible in Jenkins (CI/CD step)  
-- 🟢 Structure playbooks with roles  
+🟢 Automate Node.js application deployment  
+🟢 Automate Nexus deployment  
+🟢 Configure Docker on EC2 with Ansible  
+🟢 Integrate Ansible in Terraform (provision → configure)  
+🟢 Configure dynamic EC2 inventory plugin  
+🟢 Automate Kubernetes deployment with Ansible  
+🟢 Integrate Ansible in Jenkins (CI/CD step)  
+🟢 Structure playbooks with roles  
 
 🔗 **Explore these projects at:** [gitlab.com/eduardobautista-twn-devops-projects/ansible](https://gitlab.com/eduardobautista-twn-devops-projects/ansible)
 
@@ -114,10 +114,10 @@ Each track links to my GitLab group, where you’ll find detailed project descri
 ### Monitoring with Prometheus <img src="https://eduardobautista-devops-assets.s3.us-east-1.amazonaws.com/prometheus_icon.png" alt="Prometheus" width="28" align="left" />
 
 **Projects**
-- 🟢 Install Prometheus Stack in Kubernetes (Prometheus, Alertmanager, Grafana)  
-- 🟢 Configure alerting for applications (CPU usage, Pod health)  
-- 🟢 Monitor third-party apps (Redis exporter + dashboards)  
-- 🟢 Monitor own applications (custom metrics + Grafana)  
+🟢 Install Prometheus Stack in Kubernetes (Prometheus, Alertmanager, Grafana)  
+🟢 Configure alerting for applications (CPU usage, Pod health)  
+🟢 Monitor third-party apps (Redis exporter + dashboards)  
+🟢 Monitor own applications (custom metrics + Grafana)  
 
 🔗 **Explore these projects at:** [gitlab.com/eduardobautista-twn-devops-projects/prometheus](https://gitlab.com/eduardobautista-twn-devops-projects/prometheus)
 
