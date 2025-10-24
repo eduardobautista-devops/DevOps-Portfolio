@@ -17,8 +17,6 @@ Each track links to my GitLab group, where you’ll find detailed project descri
 
 ### Build Automation & CI/CD with Jenkins <img src="https://eduardobautista-devops-assets.s3.us-east-1.amazonaws.com/twn-devops-projects/jenkins_icon.png" alt="Jenkins" width="28" align="left" />
 
-**Projects**
-
 🟢 Install Jenkins on a cloud VM and run it via Docker  
 🟢 Create a CI pipeline with Jenkinsfile _(Freestyle, Pipeline, Multibranch Pipeline)_  
 🟢 Create a Jenkins Shared Library (JSL) and consume it in pipelines  
@@ -31,8 +29,6 @@ Each track links to my GitLab group, where you’ll find detailed project descri
 
 ### AWS Services <img src="https://eduardobautista-devops-assets.s3.us-east-1.amazonaws.com/twn-devops-projects/aws_icon.png" alt="AWS" width="28" align="left" />
 
-**Projects**
-
 🟢 Deploy a web application on an EC2 instance (manually)  
 🟢 CD — Deploy from Jenkins to EC2 (Docker)  
 🟢 CD — Deploy from Jenkins to EC2 (Docker Compose)  
@@ -44,8 +40,6 @@ Each track links to my GitLab group, where you’ll find detailed project descri
 ---
 
 ### Container Orchestration with Kubernetes <img src="https://eduardobautista-devops-assets.s3.us-east-1.amazonaws.com/twn-devops-projects/kubernetes_icon.png" alt="K8s" width="28" align="left" />
-
-**Projects**
 
 🟢 Deploy MongoDB & Mongo Express to a local cluster (Minikube)  
 🟢 Deploy Mosquitto with ConfigMap & Secret volume types  
@@ -61,8 +55,6 @@ Each track links to my GitLab group, where you’ll find detailed project descri
 
 ### Kubernetes on AWS — EKS <img src="https://eduardobautista-devops-assets.s3.us-east-1.amazonaws.com/twn-devops-projects/eks_icon.png" alt="EKS" width="28" align="left" />
 
-**Projects**
-
 🟢 Create an AWS EKS cluster with a managed Node Group  
 🟢 Create an EKS cluster with a Fargate profile  
 🟢 Create an EKS cluster using `eksctl`  
@@ -77,8 +69,6 @@ Each track links to my GitLab group, where you’ll find detailed project descri
 
 ### Infrastructure as Code with Terraform <img src="https://eduardobautista-devops-assets.s3.us-east-1.amazonaws.com/twn-devops-projects/terraform_icon.png" alt="Terraform" width="28" align="left" />
 
-**Projects**
-
 🟢 Automate AWS infrastructure (VPC, subnets, security groups, EC2, etc.)  
 🟢 Modularize Terraform projects (reusable modules)  
 🟢 Provision EKS clusters with Terraform  
@@ -91,8 +81,6 @@ Each track links to my GitLab group, where you’ll find detailed project descri
 
 ### Programming with Python <img src="https://eduardobautista-devops-assets.s3.us-east-1.amazonaws.com/twn-devops-projects/python_icon.png" alt="Python" width="28" align="left" />
 
-**Projects**
-
 🟢 Write a countdown application (CLI)  
 🟢 Automate spreadsheet processing with Python  
 🟢 Perform API requests to GitLab (list public repos)  
@@ -102,8 +90,6 @@ Each track links to my GitLab group, where you’ll find detailed project descri
 ---
 
 ### Configuration Management with Ansible <img src="https://eduardobautista-devops-assets.s3.us-east-1.amazonaws.com/twn-devops-projects/ansible_icon.png" alt="Ansible" width="28" align="left" />
-
-**Projects**
 
 🟢 Automate Node.js application deployment  
 🟢 Automate Nexus deployment  
@@ -119,8 +105,6 @@ Each track links to my GitLab group, where you’ll find detailed project descri
 ---
 
 ### Monitoring with Prometheus <img src="https://eduardobautista-devops-assets.s3.us-east-1.amazonaws.com/twn-devops-projects/prometheus_icon.png" alt="Prometheus" width="28" align="left" />
-
-**Projects**
 
 🟢 Install Prometheus Stack in Kubernetes (Prometheus, Alertmanager, Grafana)  
 🟢 Configure alerting for applications (CPU usage, Pod health)  
