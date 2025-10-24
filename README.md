@@ -26,17 +26,6 @@ Each track links to my GitLab group, where you’ll find detailed project descri
 
 🔗 **Explore these projects at:** [gitlab.com/eduardobautista-twn-devops-projects/jenkins](https://gitlab.com/eduardobautista-twn-devops-projects/jenkins)
 
-🔗 **Explore these projects at:** <a href="https://gitlab.com/eduardobautista-twn-devops-projects/jenkins" target="_blank" rel="noopener noreferrer">gitlab.com/eduardobautista-twn-devops-projects/jenkins</a>
-
-🔗 <a href="https://gitlab.com/eduardobautista-twn-devops-projects/jenkins" target="_blank">Explore these projects at</a>
-
-🔗 <a href="https://gitlab.com/eduardobautista-twn-devops-projects/jenkins" target="_blank" rel="noopener noreferrer">
-Explore these projects on GitLab
-</a>
-
-
-
-
 ---
 
 ### AWS Services <img src="https://eduardobautista-devops-assets.s3.us-east-1.amazonaws.com/aws_icon.png" alt="AWS" width="28" align="left" />
