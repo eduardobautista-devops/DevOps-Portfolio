@@ -320,6 +320,34 @@ These are additional projects I worked on to expand my DevOps expertise:
 ---
 </details>
 
+<details>
+  <summary><strong> 🟢 React GameApp – DevOps Infrastructure Project</strong></summary><br>
+
+  **Deployed Site:**  
+  🌐 [https://react-gameapp.eduardobautista-devops.com](https://react-gameapp.eduardobautista-devops.com)
+
+  **GitHub Repository:**  
+  🔗 [https://github.com/eduardobautista-devops/react-gameapp-devops.git](https://github.com/eduardobautista-devops/react-gameapp-devops.git)
+
+  **Technologies Used:**  
+  Pulumi (IaC), AWS (S3, CloudFront), Cloudflare, GitHub Actions, Custom Domain (GoDaddy)
+
+  **Project Description:**  
+  - Built a static React web application hosted on a **private S3 bucket** and delivered globally via **CloudFront CDN**.  
+  - Automated build and deployment pipeline using **GitHub Actions**, supporting both automatic and manual redeployments.  
+  - Managed DNS and SSL using **Cloudflare** with custom domain integration.  
+  - Provisioned AWS infrastructure through **Pulumi**, ensuring fully reproducible infrastructure as code.  
+  - Verified successful deployment via custom domain and Cloudflare TLS edge.
+
+  **Architecture Diagram:**  
+  ![React GameApp Architecture](https://eduardobautista-devops-assets.s3.us-east-1.amazonaws.com/react-gameapp/react-gameapp_arquitectura.png)
+
+  **Application Screenshot:**  
+  ![React GameApp Browser Screenshot](https://eduardobautista-devops-assets.s3.us-east-1.amazonaws.com/react-gameapp/react-gameapp-browser-screenshot.png)
+
+---
+</details>
+
 
 [Back to the top](#devops-portfolio)
 
